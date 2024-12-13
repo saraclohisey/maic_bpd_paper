@@ -8,8 +8,9 @@
     - [ ] Priority list
     - [ ] ENRICHR
 
-- [ ] ARDS Animal Rename lists
-- [ ] ARDS Animal Run MAIC
+- [ ] ARDS Animal Data
+  - [ ] Rename lists with Nick's Script
+  - [ ] Run MAIC
       
 - [ ] Animal BPD vs Animal ARDS
   - [ ] Non-prioritised
