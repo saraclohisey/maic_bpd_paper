@@ -7,7 +7,11 @@
   - [ ]  Human
     - [ ] Priority list
     - [ ] ENRICHR
-          
+
+- [ ] ARDS Animal Data
+      - [ ] Rename lists with Nick's Script
+      - [ ] Run ARDS MAIC
+      
 - [ ] Animal BPD vs Animal ARDS
   - [ ] Non-prioritised
   - [ ] Prioritised
