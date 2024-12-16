@@ -1,8 +1,8 @@
 # TO DO
 
 - [ ] Find inflection points/knees
-  - [ ]  Animal
-    - [ ] Priority list
+  - [x]  Animal
+    - [x] Priority list
     - [ ] ENRICHR  
   - [ ]  Human
     - [ ] Priority list
@@ -20,9 +20,9 @@
   - [ ] Non-prioritised
   - [ ] Prioritised
         
-- [ ] Human BPD vs Animal BPD
-  - [ ] Non-prioritised
-  - [ ] Prioritised
+- [x] Human BPD vs Animal BPD
+  - [x] Non-prioritised
+  - [x] Prioritised
      
 - [ ] Characterisation of datasets
   - [ ] Doughnut charts? Sankey Diagram?
