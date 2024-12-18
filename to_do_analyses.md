@@ -4,8 +4,8 @@
   - [x]  Animal
     - [x] Priority list
     - [ ] ENRICHR  
-  - [ ]  Human
-    - [ ] Priority list
+  - [x]  Human
+    - [x] Priority list
     - [ ] ENRICHR
 
 - [ ] ARDS Animal Data
@@ -16,9 +16,9 @@
   - [ ] Non-prioritised
   - [ ] Prioritised
         
-- [ ] Human BPD vs Human ARDS
-  - [ ] Non-prioritised
-  - [ ] Prioritised
+- [x] Human BPD vs Human ARDS
+  - [x] Non-prioritised
+  - [x] Prioritised
         
 - [x] Human BPD vs Animal BPD
   - [x] Non-prioritised
