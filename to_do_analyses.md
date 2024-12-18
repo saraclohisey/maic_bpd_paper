@@ -3,7 +3,8 @@
 - [ ] Find inflection points/knees
   - [x]  Animal
     - [x] Priority list
-    - [ ] ENRICHR  
+    - [ ] ENRICHR
+    - bpd_animal_maic/06_downstreamanalysis/1612_Rexports
   - [x]  Human
     - [x] Priority list
     - [ ] ENRICHR
@@ -23,6 +24,7 @@
 - [x] Human BPD vs Animal BPD
   - [x] Non-prioritised
   - [x] Prioritised
+  - bpd_animal_maic/06_downstreamanalysis/1612_Rexports
      
 - [ ] Characterisation of datasets
   - [ ] Doughnut charts? Sankey Diagram?
