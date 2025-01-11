@@ -16,9 +16,10 @@
   - [x] Run MAIC
   - bpd_animal_maic/05_maic_output/250111 - ARDS output
       
-- [ ] Animal BPD vs Animal ARDS
-  - [ ] Non-prioritised
-  - [ ] Prioritised
+- [x] Animal BPD vs Animal ARDS
+  - [x] Non-prioritised
+  - [x] Prioritised
+  - bpd_animal_maic/06_downstreamanalysis/R_exports/Murine_ARDSvBPD
         
 - [x] Human BPD vs Human ARDS
   - [x] Non-prioritised
