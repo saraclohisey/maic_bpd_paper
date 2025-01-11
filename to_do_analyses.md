@@ -10,10 +10,11 @@
     - [ ] ENRICHR
     - bpd_maic/06_downstreamanalysis/human_data_analysis
 
-- [ ] ARDS Animal Data
+- [x] ARDS Animal Data
   - [x] Rename lists with Nick's Script
   - bpd_animal_maic/03_data_extraction/ARDS_murine/250108_ARDS/MAIC_input_2025-01-09
-  - [ ] Run MAIC
+  - [x] Run MAIC
+  - bpd_animal_maic/05_maic_output/250111 - ARDS output
       
 - [ ] Animal BPD vs Animal ARDS
   - [ ] Non-prioritised
