@@ -11,7 +11,8 @@
     - bpd_maic/06_downstreamanalysis/human_data_analysis
 
 - [ ] ARDS Animal Data
-  - [ ] Rename lists with Nick's Script
+  - [x] Rename lists with Nick's Script
+  - bpd_animal_maic/03_data_extraction/ARDS_murine/250108_ARDS/MAIC_input_2025-01-09
   - [ ] Run MAIC
       
 - [ ] Animal BPD vs Animal ARDS
