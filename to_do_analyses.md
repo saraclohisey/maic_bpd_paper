@@ -4,7 +4,7 @@
   - [x]  Animal
     - [x] Priority list
     - [ ] ENRICHR
-    - bpd_animal_maic/06_downstreamanalysis/1612_Rexports
+    - bpd_animal_maic/06_downstreamanalysis/R_exports
   - [x]  Human
     - [x] Priority list
     - [ ] ENRICHR
@@ -27,7 +27,7 @@
 - [x] Human BPD vs Animal BPD
   - [x] Non-prioritised
   - [x] Prioritised
-  - bpd_animal_maic/06_downstreamanalysis/1612_Rexports
+  - bpd_animal_maic/06_downstreamanalysis/R_exports/HumanvsMurine_Overlap
      
 - [ ] Characterisation of datasets
   - [ ] Doughnut charts? Sankey Diagram?
