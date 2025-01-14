@@ -1,6 +1,6 @@
 
 # Working Title 
-# Bronchopulmonary Dysplasia: A meta-analysis by information content of genome-wide studies of the host response
+# Unraveling Bronchopulmonary Dysplasia Through Multi-Omics Meta-Analysis
 
 ## Introduction
 
