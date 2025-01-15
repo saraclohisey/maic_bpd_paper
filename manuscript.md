@@ -5,17 +5,23 @@
 ## Introduction
 
 
-### Question
+### Problem and Question
+
+<!-- why care about genes that may contribute to BPD -->
+There is an urgent need for effective treatments as 2000 new BPD cases occur each year in the UK. 
 
 Which genes are prioritised as being implicated in development of BPD in humans and in animal models.
 
 ### Heterogeneity of BPD
 
-
-### Importance of BPD
-There were over 7000 very preterm infants (VPTI) in 2021 across the UK[6] and around 30% of these infants were on respiratory support at 36 weeks GA, indicating bronchopulmonary dysplasia according to the National Neonatal Audit Programme diagnostic criteria.6,7,8 Bronchopulmonary dysplasia (BPD), also known as Chronic Lung Disease, is one of the most common complications of preterm birth and is increasing in prevalence most likely due to the increased survival rates of VPTI.[9,10] Antenatal and postnatal factors disrupt the developing lung leading to decreased alveolarisation, irregular pulmonary vessels, and fibrotic tissue.[10,11] The consequences are life-long - individuals with BPD are more likely to require rehospitalisation during their childhood, to develop asthma and to display delayed neurodevelopment, compared to VPTI without BPD.[12–15] 
-
 - Genetics in disease.
+  
+### Importance of BPD
+There were over 7000 very preterm infants (VPTI) in 2021 across the UK[6] and around 30% of these infants were on respiratory support at 36 weeks GA, indicating bronchopulmonary dysplasia according to the National Neonatal Audit Programme diagnostic criteria.[6,7,8] Bronchopulmonary dysplasia (BPD), also known as Chronic Lung Disease, is one of the most common complications of preterm birth and is increasing in prevalence most likely due to the increased survival rates of VPTI.[9,10] Antenatal and postnatal factors disrupt the developing lung leading to decreased alveolarisation, irregular pulmonary vessels, and fibrotic tissue.[10,11] The consequences are life-long - individuals with BPD are more likely to require rehospitalisation during their childhood, to develop asthma and to display delayed neurodevelopment, compared to VPTI without BPD.[12–15] 
+
+So far, no genes have been successfully associated with bronchopulmonary dysplasia but implicated pathways include:
+
+
 
 ### State of the art
 
@@ -27,8 +33,7 @@ There is conflicting evidence for a heritable component of BPD [20–22] and att
 
 
 ### Results summary
-
-
+To identify existing literature that could provide informative datasets indicating genes associated with BPD, we conducted a systematic review of published studies and pre-print manuscripts pertaining to the disease. Results were extracted from identified studies, where possible, and analysed using MAIC. MAIC is a previously described algorithm that uses data-driven gene list weightings to produce a comprehensive ranked list of genes implicated in the disease considered.[33339864;31919360;36094347] 
 
 ## Results
 
