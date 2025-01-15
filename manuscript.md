@@ -2,6 +2,9 @@
 # Working Title 
 # Unraveling Bronchopulmonary Dysplasia Through Multi-Omics Meta-Analysis
 
+<!-- To add a reference, add the PMID -->
+
+
 ## Introduction
 
 
@@ -33,7 +36,7 @@ There is conflicting evidence for a heritable component of BPD [20–22] and att
 
 
 ### Results summary
-To identify existing literature that could provide informative datasets indicating genes associated with BPD, we conducted a systematic review of published studies and pre-print manuscripts pertaining to the disease. Results were extracted from identified studies, where possible, and analysed using MAIC. MAIC is a previously described algorithm that uses data-driven gene list weightings to produce a comprehensive ranked list of genes implicated in the disease considered.[33339864;31919360;36094347] 
+To identify existing literature that could provide informative datasets indicating genes associated with BPD, we conducted a systematic review of published studies manuscripts pertaining to the disease. Results were extracted from identified studies, where possible, and analysed using MAIC. MAIC is a previously described algorithm that uses data-driven gene list weightings to produce a comprehensive ranked list of genes implicated in the disease considered.[33339864;31919360;36094347] 
 
 ## Results
 
@@ -41,11 +44,11 @@ To identify existing literature that could provide informative datasets indicati
 
 We first conducted a systematic review of existing studies, which reported associations between genes, transcripts, or proteins, and the development of BPD in humans or the study of BPD in animal. Our search yielded 4450 unique citations that were evaluated for inclusion [Supplementary Figures for PRISMA diagrams]. 
 <!-- What did we class as BPD and how wide did we cast the net -->
-<!-- PRISMA supplementary for bot human and animal -->
+<!-- PRISMA supplementary for both human and animal -->
 <!-- figure showing number of articles per animal in review-->
 
 ### Human - broad - systematic review info
-We identified 24 studies in humans that met our eligibility criteria, all peer-reviewed. This yielded 33 gene lists, 23 ranked and 10 unranked employing 5 experimental techniques [FIGURE]. Data could not be retrieved for one study. Of 6844 genes implicated across these datasets, __950 were supported by evidence from more than one source__.   
+We identified 24 studies in humans that met our eligibility criteria, all peer-reviewed. This yielded 32 gene lists, 22 ranked and 10 unranked employing 5 experimental techniques [FIGURE]. While the definition of BPD varied between studies, over half of studies, 63%, used some form of respiratory support at 36 weeks GA.  Data could not be retrieved for one study. Of 6844 genes implicated across these datasets, __950 were supported by evidence from more than one source__.  
 <!-- Summary of human results -->
 
 ### Human - specific - MAIC analysis
