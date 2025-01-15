@@ -3,11 +3,11 @@
 - [ ] Find inflection points/knees
   - [x]  Animal
     - [x] Priority list
-    - [ ] ENRICHR
+    - [X] ENRICHR
     - bpd_animal_maic/06_downstreamanalysis/R_exports
   - [x]  Human
     - [x] Priority list
-    - [ ] ENRICHR
+    - [X] ENRICHR
     - bpd_maic/06_downstreamanalysis/human_data_analysis
 
 - [x] ARDS Animal Data
@@ -30,6 +30,9 @@
   - [x] Non-prioritised
   - [x] Prioritised
   - bpd_animal_maic/06_downstreamanalysis/R_exports/HumanvsMurine_Overlap
+
+
+- [ ] Functional analysis with p < 0.01
      
 - [ ] Characterisation of datasets
   - [ ] Doughnut charts? Barcharts? Sankey Diagram?
