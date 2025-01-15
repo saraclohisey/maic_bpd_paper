@@ -37,22 +37,24 @@ To identify existing literature that could provide informative datasets indicati
 
 ## Results
 
-### Definition of BPD in humans and animal models
-<!-- What did we class as BPD and how wide did we cast the net -->
+### Definition of BPD in humans and lack of large animal models  
 
-### Lack of large animal models 
+Systematic review we cast a broad net. Included human and animal results and separated them. 
+<!-- What did we class as BPD and how wide did we cast the net -->
+<!-- PRISMA spplementary for bot human and animal -->
 <!-- figure showing number of articles per animal in review-->
 
-### Human - broad
+### Human - broad - systematic review info
+We identified 25 studies in humans that met our eligibility criteria, all peer-reviewed. This yielded 33 gene lists, 23 ranked and 10 unranked. These fell into XXX experimental categories.  
 <!-- Summary of human results -->
 
-### Human - specific
+### Human - specific - MAIC analysis
 <!-- Specific results worth highlighting -->
 
-### Rodent - broad
+### Rodent - broad - systematic review info
 <!-- Summary of rodent results -->
 
-### Rodent - specific
+### Rodent - specific - MAIC analysis
 <!-- Specific results worth highlighting -->
 
 ### Overlap
