@@ -32,7 +32,7 @@
   - bpd_animal_maic/06_downstreamanalysis/R_exports/HumanvsMurine_Overlap
      
 - [ ] Characterisation of datasets
-  - [ ] Doughnut charts? Sankey Diagram?
+  - [ ] Doughnut charts? Barcharts? Sankey Diagram?
     - [ ] Human:
       - [ ] Tissue
       - [ ] Technique/Method
@@ -41,3 +41,5 @@
       - [ ] Rat vs Mouse
       - [ ] Technique/Method
       - [ ] Tissue
+         
+  - [ ] 
