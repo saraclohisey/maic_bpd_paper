@@ -10,8 +10,7 @@
 
 ### Problem and Question
 
-<!-- why care about genes that may contribute to BPD -->
-There is an urgent need for effective treatments as 2000 new BPD cases occur each year in the UK. 
+Premature birth significantly increases the risk of both complications and long-term disabilities.1,2  Survival of infants following pre-term birth has dramatically improved in the past few decades.3 Interventions include steroids, mechano-ventilation, and surfactant therapy to facilitate gas exchange in the lungs. While successful in enabling survival, these treatments can lead to Bronchopulmonary Dysplasia.  Bronchopulmonary Dysplasia (BPD) affects 30% of preterm infants born before 32 weeks gestational age and is partly due to the ventilatory interventions used to sustain life.3–5 The effects and consequences of BPD are only beginning to be understood but are life-long - individuals with BPD are more likely to require rehospitalisation during their childhood, to have limited lung function and to display delayed neurodevelopment. There is an urgent need for effective treatments as 2000 new BPD cases occur each year in the UK. 
 
 Which genes are prioritised as being implicated in development of BPD in humans and in animal models.
 
