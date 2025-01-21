@@ -32,7 +32,8 @@
   - bpd_animal_maic/06_downstreamanalysis/R_exports/HumanvsMurine_Overlap
 
 
-- [ ] Functional analysis with p < 0.01
+- [x] Functional analysis with p < 0.01
+  - bpd_animal_maic/06_downstreamanalysis/R_exports/BPD_Murine_Enrichment
      
 - [ ] Characterisation of datasets
   - [ ] Doughnut charts? Barcharts? Sankey Diagram?
