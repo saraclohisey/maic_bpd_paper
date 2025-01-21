@@ -61,9 +61,17 @@ STRING analysis of the prioritized genes was then performed to identify gene hub
 
 ### Rodent - broad - systematic review info
 <!-- Summary of rodent results -->
+22 murine BPD studies yielded 33 gene lists for analysis using MAIC (23 ranked and 10 unranked). Of the 22 studies, 14 used mice models and 8 used rat models. The majority (19/22 86%) of these studies classed BPD by exposing murine models to hyperoxic environments. Other methods included lipopolysaccharide (LPS) treatment and induced low birth weight. MAIC analysed 7157 total genes, 679 of these genes were prioritised using the unit invariant knee method (REF). 
 
 ### Rodent - specific - MAIC analysis
 <!-- Specific results worth highlighting -->
+GO biological processes (FDR 0.01). Top 50 enriched terms in bubble plot (figure)
+
+Vasculature Development (GO:0001944), Angiogenesis (GO:0001568), Blood Vessel Morphogenesis (GO:0048514), and Blood Vessel Development (GO:0001525) were all among the top 50 significantly enriched terms. 
+
+Programmed Cell Death, Apoptotic Process, Cell Death
+
+Defense Response, Response to Cytokine, Response to stress
 
 ### Overlap
 <!-- Summary of overlap -->
