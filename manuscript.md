@@ -61,7 +61,7 @@ STRING analysis of the prioritized genes was then performed to identify gene hub
 
 ### Rodent - broad - systematic review info
 <!-- Summary of rodent results -->
-22 murine BPD studies yielded 33 gene lists for analysis using MAIC (23 ranked and 10 unranked). Of the 22 studies, 14 used mice models and 8 used rat models. The majority (19/22 86%) of these studies classed BPD by exposing murine models to hyperoxic environments. Other methods included lipopolysaccharide (LPS) treatment and induced low birth weight. MAIC analysed 7157 total genes, 679 of these genes were prioritised using the unit invariant knee method (REF). 
+22 murine BPD studies yielded 33 gene lists for analysis using MAIC (23 ranked and 10 unranked). Of the 22 studies, 14 used mice models and 8 used rat models. The majority (19/22 86%) of these studies modelled BPD by exposing murine models to hyperoxic environments. Other methods included lipopolysaccharide (LPS) treatment and induced low birth weight. 
 
 ### Rodent - specific - MAIC analysis
 <!-- Specific results worth highlighting -->
