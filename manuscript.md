@@ -1,6 +1,6 @@
 
 # Working Title 
-# Unraveling Bronchopulmonary Dysplasia Through Multi-Omics Meta-Analysis
+# Unravelling Bronchopulmonary Dysplasia Through Multi-Omics Meta-Analysis
 
 <!-- To add a reference, add the PMID -->
 
