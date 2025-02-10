@@ -1,6 +1,19 @@
 # TO DO
 
-- [ ] Find inflection points/knees
+- [ ] What DOESN'T overlap with BPD/ARDS in humans?
+
+- [ ] Characterisation of datasets
+  - [ ] Doughnut charts? Barcharts? Sankey Diagram?
+    - [ ] Human:
+      - [ ] Tissue
+      - [ ] Technique/Method
+      - [ ] Gestational age
+    - [ ] Animal:
+      - [ ] Rat vs Mouse
+      - [ ] Technique/Method
+      - [ ] Tissue
+
+- [X] Find inflection points/knees
   - [x]  Animal
     - [x] Priority list
     - [X] ENRICHR
@@ -30,20 +43,13 @@
   - [x] Non-prioritised
   - [x] Prioritised
   - bpd_animal_maic/06_downstreamanalysis/R_exports/HumanvsMurine_Overlap
+     
+
 
 
 - [x] Functional analysis with p < 0.01
   - bpd_animal_maic/06_downstreamanalysis/R_exports/BPD_Murine_Enrichment
      
-- [ ] Characterisation of datasets
-  - [ ] Doughnut charts? Barcharts? Sankey Diagram?
-    - [ ] Human:
-      - [ ] Tissue
-      - [ ] Technique/Method
-      - [ ] Gestational age
-    - [ ] Animal:
-      - [ ] Rat vs Mouse
-      - [ ] Technique/Method
-      - [ ] Tissue
+
          
   - [ ] 
