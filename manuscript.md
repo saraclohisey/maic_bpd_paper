@@ -61,8 +61,11 @@ We were interested in the similarities between ARDS in adults and BPD in neonate
 
 ### Rodent - broad - systematic review info
 <!-- Summary of rodent results -->
-22 rodent BPD studies yielded 33 gene lists for analysis using MAIC (23 ranked and 10 unranked). Of the 22 studies, 14 used mice models and 8 used rat models. The majority (19/22 86%) of these studies modeled BPD by exposing neonatal pups to hyperoxic environments. There was variation in the timeframe of hyperoxia and recovery and also the percent oxygen used for hyperoxia across the studies. Other methods to model BPD in rodent models included lipopolysaccharide (LPS) treatment (1 study) and induced low birth weight (2 studies). All but one included study used lung tissue for analyses.
 
+20 rodent BPD studies yielded 36 gene lists for analysis using MAIC (28 ranked and 8 unranked). Of the 22 studies, 12 used mice models and 9 used rat models. The majority (16/20 80%) of these studies modeled BPD by exposing neonatal pups to hyperoxic environments. There was variation in the timeframe of hyperoxia and recovery and also the percent oxygen used for hyperoxia across the studies. Other methods to model BPD in rodent models included lipopolysaccharide (LPS) treatment (1 study) and induced low birth weight (2 studies). All but one included study used lung tissue for analyses.
+<!-- 
+22 rodent BPD studies yielded 33 gene lists for analysis using MAIC (23 ranked and 10 unranked). Of the 22 studies, 14 used mice models and 8 used rat models. The majority (19/22 86%) of these studies modeled BPD by exposing neonatal pups to hyperoxic environments. There was variation in the timeframe of hyperoxia and recovery and also the percent oxygen used for hyperoxia across the studies. Other methods to model BPD in rodent models included lipopolysaccharide (LPS) treatment (1 study) and induced low birth weight (2 studies). All but one included study used lung tissue for analyses.
+-->
 ### Rodent - specific - MAIC analysis
 <!-- Specific results worth highlighting -->
 GO biological processes (FDR 0.01). Top 50 enriched terms in bubble plot (figure)
