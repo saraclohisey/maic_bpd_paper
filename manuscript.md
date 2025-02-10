@@ -46,11 +46,13 @@ We first conducted a systematic review of existing studies, which reported assoc
 <!-- PRISMA supplementary for both human and animal -->
 <!-- figure showing number of articles per animal in review-->
 
-### Human - broad - systematic review info
-We identified 21 studies in humans that met our eligibility criteria, all peer-reviewed. This yielded 31 gene lists, 23 ranked and 8 unranked, employing 5 experimental techniques (Mass spectrometry, GWAS, microarray, exomeSeq, RNAseq) [FIGURE]. The gene list could not be retrieved for one RNAseq study. We did not include miRNA lists. All but a single study used primary tissue or samples. While the definition of BPD varied between studies, over two-thirds of studies, (71.4%, 15/21), used respiratory support at 36 weeks GA.Of 8017 genes implicated across the datasets. Only a single gene was supported by evidence from all 5 experimental techniques (RASGRP3). Few genes were supported by more than 1 method (n = 745, 9.74%), with 53 genes (0.6%) supported by >=3 methods. We prioritised 945 genes for further investigation, as previously described [Millar]. 
+### MAIC analysis
+We identified 21 studies in humans that met our eligibility criteria, all peer-reviewed. This yielded 31 gene lists, 23 ranked and 8 unranked, employing 5 experimental techniques (Mass spectrometry, GWAS, microarray, exomeSeq, RNAseq) [FIGURE]. The gene list could not be retrieved for one RNAseq study. We did not include miRNA lists. All but a single study used primary tissue or samples. While the definition of BPD varied between studies, over two-thirds of studies, (71.4%, 15/21), used respiratory support at 36 weeks GA. Of 8017 genes implicated across the datasets. Only a single gene was supported by evidence from all 5 experimental techniques (RASGRP3). Few genes were supported by more than 1 method (n = 745, 9.74%), with 53 genes (0.6%) supported by >=3 methods. We prioritised 945 genes for further investigation, as previously described [Millar]. 
 
-### Human - specific - MAIC analysis
+### Functional Enrichment 
+Functional enrichment analyses focused on the prioritised list of 945 genes. First we performed over-representation analysis. 
 
+Next, we created a protein-protein interaction network. MCL clustering identified 32 clusters with >=5 members. Each of the 10 largest clusters contained >=10 members. Among these, we found programs associated with adaptive immunity, the SWI/SNF complex and post-translational protein phosphorylation. 
 
 
 
