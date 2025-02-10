@@ -47,9 +47,11 @@ We first conducted a systematic review of existing studies, which reported assoc
 <!-- figure showing number of articles per animal in review-->
 
 ### Human - broad - systematic review info
-We identified 24 studies in humans that met our eligibility criteria, all peer-reviewed. This yielded 33 gene lists, 23 ranked and 10 unranked employing 5 experimental techniques (Mass spectrometry, GWAS, microarray, exomeSeq, RNAseq) [FIGURE]. Data could not be retrieved for one study. 
+We identified 21 studies in humans that met our eligibility criteria, all peer-reviewed. This yielded 31 gene lists, 23 ranked and 8 unranked, employing 5 experimental techniques (Mass spectrometry, GWAS, microarray, exomeSeq, RNAseq) [FIGURE]. The gene list could not be retrieved for one RNAseq study. We did not include miRNA lists. All but a single study used primary tissue or samples. 
 
-While the definition of BPD varied between studies, over half of studies, 63%, used some form of respiratory support at 36 weeks GA.  
+While the definition of BPD varied between studies, over two-thirds of studies, (71.4%, 15/21), used respiratory support at 36 weeks GA.  
+
+
 
 
 
