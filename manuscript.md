@@ -47,15 +47,18 @@ We first conducted a systematic review of existing studies, which reported assoc
 <!-- figure showing number of articles per animal in review-->
 
 ### Human - broad - systematic review info
-We identified 24 studies in humans that met our eligibility criteria, all peer-reviewed. This yielded 32 gene lists, 22 ranked and 10 unranked employing 5 experimental techniques [FIGURE]. While the definition of BPD varied between studies, over half of studies, 63%, used some form of respiratory support at 36 weeks GA.  Data could not be retrieved for one study. Of 6844 genes implicated across these datasets, __950 were supported by evidence from more than one source__.  
+We identified 24 studies in humans that met our eligibility criteria, all peer-reviewed. This yielded 33 gene lists, 23 ranked and 10 unranked employing 5 experimental techniques (Mass spectrometry, GWAS, microarray, exomeSeq, RNAseq) [FIGURE]. Data could not be retrieved for one study. 
+
+While the definition of BPD varied between studies, over half of studies, 63%, used some form of respiratory support at 36 weeks GA.  
+
+
+
+
+Of 6844 genes implicated across these datasets, __950 were supported by evidence from more than one source__.  
 <!-- Summary of human results -->
 
 ### Human - specific - MAIC analysis
-Functional enrichment analysis of the 1055 prioritised genes identified by MAIC score was performed against the GO Biological Process database, resulting in 25 significantly enriched biological processes with a false discovery rate (FDR) ≤ 0.01. In particular, inflammatory, immune regulatory and cell proliferation pathways stood out (Figure 2). Platelet degranulation (GO:0002576) was found to be the most significantly enriched process, involving genes such as PDGFA, VEGFB, and THBS1, which encode for platelet-derived factors, in BPD pathogenesis. Dysregulated platelet activation in preterm infants can enhance local inflammation and disrupt normal vascularisation, contributing to impaired alveolarisation of the lungs. Platelets may therefore be implicated not only in hemostasis but also inflammatory signaling and tissue remodeling, which are both processes critical to BPD pathogenesis.
 
-Negative regulation of endopeptidase activity (GO:0010951) and regulation of immune effector processes (GO:0002697) were also both significantly enriched, which further supports the idea of chronic inflammatory processes in BPD pathogenesis. In particular, these processes involved genes responsible for protease inhibition, such as SERPINA1 and SERPING1, which indicates the importance of maintaining the protease-antiprotease balance in the body to prevent lung injury and extracellular matrix degradation. Also, immune effector regulation, involving genes such as CR1, C1QB, and HLA-DRA, points to overactivation of the complement system and immune responses, which are known contributors to alveolar damage. Finally the enrichment of regulation of cell population proliferation (GO:0042127) suggests potential defects in lung cell proliferation, with genes such as FGF2 and TIMP1, may play a role in abnormal lung tissue repair. These findings imply that there is interplay between inflammation, immune dysregulation and defective development of the lungs in BPD, outlining potential molecular pathways for future targeted therapies.
-
-STRING analysis of the prioritized genes was then performed to identify gene hubs potentially involved in BPD progression. Analysis of the top 10 gene hubs (Figure 3b) identified 9606.ENSP00000265171 to be the top gene based on connectivity. This Ensembl protein corresponded to Epidermal Growth Factor Receptor (EGFR). Further analysis using the STRING network demonstrated a cluster of proteins that interacted with EGFR, including ERBB2, ERBB3, IGF1R and GRB2, which are all involved in growth factor signaling pathways such as the ERBB signaling pathway and PI3K-AKT signaling pathway. These pathways are involved in lung development through the regulation of cell proliferation, survival and differentiation. EGFR signalling pathway disruption has been implicated in defective alveolar and vascular development, which are both core to the development of BPD. As EGFR has high connectivity and plays a central role in growth factor networks, the gene may represent a critical regulatory point in the disrupted signaling observed in BPD. These findings suggest that further investigation of EGFR and its interacting genes and pathways could be the source of potential therapeutic targets for reducing injury and allowing for proper lung development in neonates at risk for BPD.
 
 
 
