@@ -41,13 +41,11 @@ Functional enrichment analyses focused on the prioritised list of 945 genes. Fir
 Next, we created a protein-protein interaction network. MCL clustering identified 32 clusters with >=5 members. Each of the 10 largest clusters contained >=10 members. Among these, we found programs associated with adaptive immunity, the SWI/SNF complex and post-translational protein phosphorylation. 
 
 ### Overlap with ARDS
-We were interested in the similarities between ARDS in adults and BPD in neonates. We compared prioritised BPD genes to prioritised ARDS genes from our previous study [Millar]. We found that 112 genes were shared between the two datasets. Functional enrichment of analyses demonstrated that genes associated with T cell activity were enriched in this overlap. 
+We were interested in the similarities between ARDS in adults and BPD in neonates. both of which are severe pulmonary conditions characterized by inflammation, tissue damage and impaired lung function. The ARDS MAIC ranked 7085 genes, with 1308 of these prioritised with the same methodology.[Millar] We found that 112 genes were shared between the two prioritised datasets. Functional enrichment of analyses demonstrated that genes associated with T cell activity were enriched in this overlap. The overlap found suggests that there are shared pathways and mechanisms involved in both conditions, likely due to the shared nature of their inflammatory processes, extracellular matrix remodeling and immune responses in lung injury. This finding may have implications for the development of targeted therapies that are more appropriate for the age-specific pathogenesis of each condition. 
 
 [TCELL RESPONSE?]
 
 ### Rodent - broad - systematic review info
-<!-- Summary of rodent results -->
-
 20 rodent BPD studies yielded 35 gene lists for analysis using MAIC (27 ranked and 8 unranked), employing 5 experimental techniques (GWAS, microarray, DNA methylation, RNAseq, scRNAseq) [FIGURE]. Of the 20 studies, 12 used mice models and 8 used rat models. The majority (16/20 80%) of these studies modeled BPD by exposing neonatal pups to hyperoxic environments. There was variation in the timeframe of hyperoxia and recovery and also the percent oxygen used for hyperoxia across the studies. Other methods to model BPD in rodent models included lipopolysaccharide (LPS) treatment (2 studies) and induced IUGR (2 studies). All but one included study used lung tissue for analyses. Of 6764 genes implicated across all datasets 3 genes were supported by evidence from all >=4 experimental techniques (RAC2, CXCR2, IL1R2). Few genes were supported by more than 1 method (n = 1209, 17.87%), with 94 genes (1.4%) supported by >=3 methods. We prioritised 1369 genes for further investigation.
 
 ### Rodent - specific - MAIC analysis
@@ -65,10 +63,12 @@ Defense Response, Response to Cytokine, Response to stress
 
 
 
-### Comparison to ARDS
-The gene lists from MAIC were compared between BPD and ARDS, both of which are severe pulmonary conditions characterized by inflammation, tissue damage and impaired lung function. The ARDS MAIC ranked 7085 genes, with 1308 of these prioritised with the same methodology. ARDS and BPD gene lists were overlapped to identify genes within both subsets. There were 2054 genes that overlapped. The ARDS gene list was then overlapped with the BPD prioritised gene list. There were no genes found to be overlapped. The overlap found suggests that there are shared pathways and mechanisms involved in both conditions, likely due to the shared nature of their inflammatory processes, extracellular matrix remodeling and immune responses in lung injury. 
 
-This lack of overlap in the prioritised group may be surprising, as there are shared clinical and pathological features of BPD and ARDS. However, while there may be common general processes (Figure 4a), the specific genes driving the most critical biological processes in these conditions may be distinct. This could imply that although inflammation and tissue remodeling are present in both diseases, the cell types and signalling pathways involved might be different, potentially reflecting age-related differences in lung development. This finding may have implications for the development of targeted therapies that are more appropriate for the age-specific pathogenesis of each condition. 
+
+
+
+
+
 
 <!-- Summary of overlap -->
 
