@@ -6,50 +6,32 @@
 
 
 ## Introduction
-
-
 ### Problem and Question
-
-Premature birth significantly increases the risk of both complications and long-term disabilities [1,2].  Survival of infants following pre-term birth has dramatically improved in the past few decades [3]. Interventions include steroids, mechano-ventilation, and surfactant therapy to facilitate gas exchange in the lungs. While successful in enabling survival, these treatments can lead to Bronchopulmonary Dysplasia.  Bronchopulmonary Dysplasia (BPD) affects 30% of preterm infants born before 32 weeks gestational age and is partly due to the ventilatory interventions used to sustain life [3,4,5] The lungs are damaged by oxygen toxicity, pulmonary inflammation, and steroid-altered development [24213917]. The effects and consequences of BPD are only beginning to be understood but are life-long - individuals with BPD are more likely to require rehospitalisation during their childhood, to have limited lung function and to display delayed neurodevelopment, compared to VPTI without BPD [12-15]. There is an urgent need for effective treatments as 2000 new BPD cases occur each year in the UK [REF]
-
-Which genes are prioritised as being implicated in development of BPD in humans and in animal models.
+Premature birth significantly increases the risk of both complications and long-term disabilities [1,2]. Bronchopulmonary dysplasia (BPD), also known as Chronic Lung Disease, is one of the most common complications of preterm birth affecting up to 30% of preterm infants born before 32 weeks gestational age (GA). The multifactorial nature of BPD makes characterisation difficult. Antenatal and postnatal factors disrupt the developing lung leading to decreased alveolarisation, larger alveoli, irregular pulmonary vessels, and fibrotic tissue [10,11]. In particular, the measures taken at birth to increase survival of preterm infants causes damage to the developing lungs by oxygen toxicity, pulmonary inflammation, and steroid-altered development [24213917]. The effects and consequences of BPD are only beginning to be understood but are life-long - individuals with BPD are more likely to require rehospitalisation during their childhood, to have limited lung function and to display delayed neurodevelopment, compared to VPTI without BPD [12-15]. [EXPAND]
+There is an urgent need for effective treatments as 2000 new BPD cases occur each year in the UK [REF]
 
 ### Heterogeneity of BPD
+[FILL IN]
 
-- Genetics in disease.
-  
-### Importance of BPD
-There were over 7000 very preterm infants (VPTI) in 2021 across the UK[6] and around 30% of these infants were on respiratory support at 36 weeks GA, indicating bronchopulmonary dysplasia according to the National Neonatal Audit Programme diagnostic criteria.[6,7,8] Bronchopulmonary dysplasia (BPD), also known as Chronic Lung Disease, is one of the most common complications of preterm birth and is increasing in prevalence most likely due to the increased survival rates of VPTI.[9,10] Antenatal and postnatal factors disrupt the developing lung leading to decreased alveolarisation, irregular pulmonary vessels, and fibrotic tissue [10,11].
-
-The genetic contribution to BPD development remains unclear; unravelling this could aid in risk prediction, targeted therapies, and understanding disease mechanisms. So far, no genes have been successfully associated with bronchopulmonary dysplasia but implicated pathways include:
-
-
-
-### State of the art
-
-- Current potential mediators of BPD.
-
-So far, no genes have been successfully associated with bronchopulmonary dysplasia in humans. Attempts to identify genes associated with the development of BPD via Genome Wide Association Studies (GWAS) and exome sequencing have had only moderate success; while some candidates have been identified [spock2] no gene has ever reached stringent significance levels.[23–27] 
+### Genetics of BPD
+The genetic contribution to BPD development remains unclear; unravelling this could aid in risk prediction, targeted therapies, and understanding disease mechanisms.  So far, no genes have been successfully associated with bronchopulmonary dysplasia in humans. Attempts to identify genes associated with the development of BPD via Genome Wide Association Studies (GWAS) and exome sequencing have had only moderate success; while some candidates have been identified [spock2] no gene has ever reached stringent significance levels.[23–27] 
 
 ### Animal Models and their suitability
 Research often uses rodent models of BPD, exposing neonatal mice or rats to hyperoxia, mimicking lung injury.  A full-term human is born early in the alveolarization stage of lung development, with 150 million alveoli at birth, 50% of the expected adult number [3956418]. Rodents are born during the saccular stage with alveolarization beginning approximately 5 days after birth [914698]. A key difference is that rodent lungs are primed for gas exchange at this stage in development as the animal must survive ex utero [914698]. In contrast, human lungs are not designed for gas exchange in these earlier stages of development and require medical intervention, resulting in imapired alveolar development [27222921]. This brings into question the relevance of multi-omic research using rodent models aimed toward identifying potential therapeutic targets in BPD. To address this question, this study compares systematically collated information from both human and rodent studies.
-<!--
-This approach effectively captures aspects of inflammation and oxidative stress but may not fully replicate the multifactorial nature of BPD.
--->
+
 ### Results summary
 To identify existing literature that could provide informative datasets indicating genes associated with BPD, we conducted a systematic review of published studies manuscripts pertaining to the disease. Results were extracted from identified studies, where possible, and analysed using MAIC. MAIC is a previously described algorithm that uses data-driven gene list weightings to produce a comprehensive ranked list of genes implicated in the disease or syndrome considered.[33339864;31919360;36094347] 
 
 ## Results
 
-### Definition of BPD in humans and lack of large animal models  
+### Systematic review
+We conducted a systematic review of existing studies, which reported associations between genes, transcripts, or proteins, and the development of BPD in humans or the study of BPD in animal (Supp inf). To ensure we were thorough in our approach and we did not limit the search to any specific definition of BPD in humans or animal models. Our search yielded 4450 unique citations that were evaluated for inclusion [Supplementary Figures for PRISMA diagrams]. For full text evaluation we retrieved XX articles for human studies and XX for animal studies. We found that although large animal models are often used to explore BPD,[examples, sheep IUGR, pig] we found no such study which met our inclusion criteria. [Supplementary figure of inclusion] 
 
-We first conducted a systematic review of existing studies, which reported associations between genes, transcripts, or proteins, and the development of BPD in humans or the study of BPD in animal. Our search yielded 4450 unique citations that were evaluated for inclusion [Supplementary Figures for PRISMA diagrams]. 
-<!-- What did we class as BPD and how wide did we cast the net -->
-<!-- PRISMA supplementary for both human and animal -->
-<!-- figure showing number of articles per animal in review-->
+[Anything else to  say here?]
 
 ### MAIC analysis
-We identified 21 studies in humans that met our eligibility criteria, all peer-reviewed. This yielded 31 gene lists, 23 ranked and 8 unranked, employing 5 experimental techniques (Mass spectrometry, GWAS, microarray, exomeSeq, RNAseq) [FIGURE]. The gene list could not be retrieved for one RNAseq study.  All but a single study used primary tissue or samples. While the definition of BPD varied between studies, over two-thirds of studies, (71.4%, 15/21), used respiratory support at 36 weeks GA. Of 8017 genes implicated across the datasets. Only a single gene was supported by evidence from all 5 experimental techniques (RASGRP3). Few genes were supported by more than 1 method (n = 745, 9.74%), with 53 genes (0.6%) supported by >=3 methods. We prioritised 945 genes for further investigation, as previously described [Millar]. 
+We first focused on the human studies and and identified 21 peer-reviewed studies that met our eligibility criteria. This yielded 31 gene lists, 23 ranked and 8 unranked, employing 5 experimental techniques (Mass spectrometry, GWAS, microarray, exomeSeq, RNAseq) [FIGURE]. The gene list could not be retrieved for one RNAseq study.  All but a single study used primary tissue or samples. While the definition of BPD varied between studies, over two-thirds of studies, (71.4%, 15/21), used respiratory support at 36 weeks GA.[NNAP/NICHD] 
+Of 8017 genes implicated across the datasets. Only a single gene was supported by evidence from all 5 experimental techniques (RASGRP3). Few genes were supported by more than 1 method (n = 745, 9.74%), with 53 genes (0.6%) supported by >=3 methods. We prioritised 945 genes for further investigation, as previously described [Millar]. 
 
 <!--We did not include miRNA lists.-->
 
