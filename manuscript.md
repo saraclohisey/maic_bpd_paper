@@ -29,13 +29,15 @@ The genetic contribution to BPD development remains unclear; unravelling this co
 
 - Current potential mediators of BPD.
 
-There is conflicting evidence for a heritable component of BPD [20–22] and attempts to identify genes via Genome Wide Association Studies (GWAS) and exome sequencing have had only moderate success; no gene has ever reached stringent significance levels.[23–27] So far, no genes have been successfully associated with bronchopulmonary dysplasia in humans.
+So far, no genes have been successfully associated with bronchopulmonary dysplasia in humans. Attempts to identify genes associated with the development of BPD via Genome Wide Association Studies (GWAS) and exome sequencing have had only moderate success; while some candidates have been identified [spock2] no gene has ever reached stringent significance levels.[23–27] 
 
 ### Animal Models and their suitability
-Research often uses rodent models of BPD, exposing neonatal mice or rats to hyperoxia, mimicking lung injury. This approach effectively captures aspects of inflammation and oxidative stress but may not fully replicate the multifactorial nature of BPD. A full-term human is born early in the alveolarization stage of lung development, with 150 million alveoli at birth, 50% of the expected adult number [3956418]. Rodents are born during the saccular stage with alveolarization beginning approximately 5 days after birth [914698]. A key difference is that rodent lungs are primed for gas exchange at this stage in development as the animal must survive outside of the womb [914698]. In contrast, human lungs are not designed for gas exchange in these earlier stages of development and require medical intervention, resulting in less successful alveolar development [27222921]. This brings into question the relevance of multi-omic research using rodent models aimed toward identifying potential therapeutic targets in BPD. To address this question, this study compares systematically collated information from both human and rodent studies.
-
+Research often uses rodent models of BPD, exposing neonatal mice or rats to hyperoxia, mimicking lung injury.  A full-term human is born early in the alveolarization stage of lung development, with 150 million alveoli at birth, 50% of the expected adult number [3956418]. Rodents are born during the saccular stage with alveolarization beginning approximately 5 days after birth [914698]. A key difference is that rodent lungs are primed for gas exchange at this stage in development as the animal must survive ex utero [914698]. In contrast, human lungs are not designed for gas exchange in these earlier stages of development and require medical intervention, resulting in imapired alveolar development [27222921]. This brings into question the relevance of multi-omic research using rodent models aimed toward identifying potential therapeutic targets in BPD. To address this question, this study compares systematically collated information from both human and rodent studies.
+<!--
+This approach effectively captures aspects of inflammation and oxidative stress but may not fully replicate the multifactorial nature of BPD.
+-->
 ### Results summary
-To identify existing literature that could provide informative datasets indicating genes associated with BPD, we conducted a systematic review of published studies manuscripts pertaining to the disease. Results were extracted from identified studies, where possible, and analysed using MAIC. MAIC is a previously described algorithm that uses data-driven gene list weightings to produce a comprehensive ranked list of genes implicated in the disease considered.[33339864;31919360;36094347] 
+To identify existing literature that could provide informative datasets indicating genes associated with BPD, we conducted a systematic review of published studies manuscripts pertaining to the disease. Results were extracted from identified studies, where possible, and analysed using MAIC. MAIC is a previously described algorithm that uses data-driven gene list weightings to produce a comprehensive ranked list of genes implicated in the disease or syndrome considered.[33339864;31919360;36094347] 
 
 ## Results
 
@@ -47,7 +49,9 @@ We first conducted a systematic review of existing studies, which reported assoc
 <!-- figure showing number of articles per animal in review-->
 
 ### MAIC analysis
-We identified 21 studies in humans that met our eligibility criteria, all peer-reviewed. This yielded 31 gene lists, 23 ranked and 8 unranked, employing 5 experimental techniques (Mass spectrometry, GWAS, microarray, exomeSeq, RNAseq) [FIGURE]. The gene list could not be retrieved for one RNAseq study. We did not include miRNA lists. All but a single study used primary tissue or samples. While the definition of BPD varied between studies, over two-thirds of studies, (71.4%, 15/21), used respiratory support at 36 weeks GA. Of 8017 genes implicated across the datasets. Only a single gene was supported by evidence from all 5 experimental techniques (RASGRP3). Few genes were supported by more than 1 method (n = 745, 9.74%), with 53 genes (0.6%) supported by >=3 methods. We prioritised 945 genes for further investigation, as previously described [Millar]. 
+We identified 21 studies in humans that met our eligibility criteria, all peer-reviewed. This yielded 31 gene lists, 23 ranked and 8 unranked, employing 5 experimental techniques (Mass spectrometry, GWAS, microarray, exomeSeq, RNAseq) [FIGURE]. The gene list could not be retrieved for one RNAseq study.  All but a single study used primary tissue or samples. While the definition of BPD varied between studies, over two-thirds of studies, (71.4%, 15/21), used respiratory support at 36 weeks GA. Of 8017 genes implicated across the datasets. Only a single gene was supported by evidence from all 5 experimental techniques (RASGRP3). Few genes were supported by more than 1 method (n = 745, 9.74%), with 53 genes (0.6%) supported by >=3 methods. We prioritised 945 genes for further investigation, as previously described [Millar]. 
+
+<!--We did not include miRNA lists.-->
 
 ### Functional Enrichment 
 Functional enrichment analyses focused on the prioritised list of 945 genes. First, we performed over representation analysis. Genes associated with immunity, in particular T cell immunity, are over-represented. Reactome showed over representation of genes associated with the activity of ZAP-70 in T cell polarization and proliferation [PMID:12387734, 32948597, 15059847], though ZAP70 appears in the overall list of genes, it is not highly ranked by MAIC (3982) and is supported by a single study [yuon chou]. 
@@ -62,10 +66,8 @@ We were interested in the similarities between ARDS in adults and BPD in neonate
 ### Rodent - broad - systematic review info
 <!-- Summary of rodent results -->
 
-20 rodent BPD studies yielded 36 gene lists for analysis using MAIC (28 ranked and 8 unranked). Of the 22 studies, 12 used mice models and 9 used rat models. The majority (16/20 80%) of these studies modeled BPD by exposing neonatal pups to hyperoxic environments. There was variation in the timeframe of hyperoxia and recovery and also the percent oxygen used for hyperoxia across the studies. Other methods to model BPD in rodent models included lipopolysaccharide (LPS) treatment (1 study) and induced low birth weight (2 studies). All but one included study used lung tissue for analyses.
-<!-- 
-22 rodent BPD studies yielded 33 gene lists for analysis using MAIC (23 ranked and 10 unranked). Of the 22 studies, 14 used mice models and 8 used rat models. The majority (19/22 86%) of these studies modeled BPD by exposing neonatal pups to hyperoxic environments. There was variation in the timeframe of hyperoxia and recovery and also the percent oxygen used for hyperoxia across the studies. Other methods to model BPD in rodent models included lipopolysaccharide (LPS) treatment (1 study) and induced low birth weight (2 studies). All but one included study used lung tissue for analyses.
--->
+20 rodent BPD studies yielded 35 gene lists for analysis using MAIC (27 ranked and 8 unranked), employing 5 experimental techniques (GWAS, microarray, DNA methylation, RNAseq, scRNAseq) [FIGURE]. Of the 20 studies, 12 used mice models and 8 used rat models. The majority (16/20 80%) of these studies modeled BPD by exposing neonatal pups to hyperoxic environments. There was variation in the timeframe of hyperoxia and recovery and also the percent oxygen used for hyperoxia across the studies. Other methods to model BPD in rodent models included lipopolysaccharide (LPS) treatment (2 studies) and induced IUGR (2 studies). All but one included study used lung tissue for analyses. Of 6764 genes implicated across all datasets 3 genes were supported by evidence from all >=4 experimental techniques (RAC2, CXCR2, IL1R2). Few genes were supported by more than 1 method (n = 1209, 17.87%), with 94 genes (1.4%) supported by >=3 methods. We prioritised 1369 genes for further investigation.
+
 ### Rodent - specific - MAIC analysis
 <!-- Specific results worth highlighting -->
 GO biological processes (FDR 0.01). Top 50 enriched terms in bubble plot (figure)
@@ -76,8 +78,10 @@ Programmed Cell Death, Apoptotic Process, Cell Death
 
 Defense Response, Response to Cytokine, Response to stress
 
-### Overlap
-<!-- Summary of overlap -->
+### Overlap between human and rodent
+
+
+
 
 ### Comparison to ARDS
 The gene lists from MAIC were compared between BPD and ARDS, both of which are severe pulmonary conditions characterized by inflammation, tissue damage and impaired lung function. The ARDS MAIC ranked 7085 genes, with 1308 of these prioritised with the same methodology. ARDS and BPD gene lists were overlapped to identify genes within both subsets. There were 2054 genes that overlapped. The ARDS gene list was then overlapped with the BPD prioritised gene list. There were no genes found to be overlapped. The overlap found suggests that there are shared pathways and mechanisms involved in both conditions, likely due to the shared nature of their inflammatory processes, extracellular matrix remodeling and immune responses in lung injury. 
