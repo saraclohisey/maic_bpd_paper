@@ -64,17 +64,20 @@ Lung and vascular development were strongly implicated among significantly enric
 Cell differentiation, cellular development process, and positive regulation of multicellular organismal process indicate that abnormal cell differentiation may impair lung maturation in BPD. Enrichment of cell migration and cell motility suggest altered cell movement, which is crucial for lung tissue organisation and repair. Programmed cell death, apoptotic process and cell death support the idea that dysregulated apoptosis may contribute to altered alveoli development in BPD. 
 Response to stimulus, stress, chemical and external stimulus support evidence that premature lungs are sensitive to environmental factors such as oxygen therapy and mechanical ventilation. Response to hypoxia is a relevant enriched term, as oxygen dysregulation is a key factor in BPD pathophysiology 
 
-### Overlap between human and rodent
+### Overlap between Human and Rodent BPD 
+We analysed the overlap between the results of the human and rodent BPD MAICs. Of the 8017 genes from the human results, and the 6764 genes from the rodent results: 2462 genes overlapped (36.4%). Using the prioritised lists from both analyses, 945 human and 1369 rodent, we found 125 overlapping genes (9.1%). (Euler plots). The size of this overlap may reflect the underlying differences in human and rodent lung development that render the two incomparable in terms of BPD pathophysiology. 
 
+Functional enrichment of the 125 prioritised overlapping genes through GO Biological Processes revealed 139 significantly enriched terms (FDR <0.01). The top 30 are displayed in a bubble plot.
 
+- Immune system involvement
+- T and B cell activation
+- Cell death and apoptosis
+- ECM and cell adhesion
+- Signal transduction and cytokine mediated pathways
+ 
+Immune system involvement was again a strong theme among enriched terms, supporting the idea that BPD is driven by exaggerated immune response. These terms related to immune activation, inflammation and cytokine signalling. Pathways involved in programmed cell death and apoptosis highlight the destructive effects of hyperoxia and inflammation on lung cells, key mechanisms in BPD pathology. However, due to developmental differences in human and rodent lungs, these pathways may not be directly comparable. 
 
-
-
-
-
-
-
-
+Terms associated with extracellular matrix and cell adhesion support the role of disrupted lung structure and fibrosis in BPD. However, this is another aspect that due to innate differences in lung development between humans and rodents, may not be equivalent.  
 
 <!-- Summary of overlap -->
 
