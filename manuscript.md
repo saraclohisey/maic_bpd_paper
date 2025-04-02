@@ -6,22 +6,21 @@
 
 
 ## Introduction
-### Problem and Question
-Premature birth significantly increases the risk of both complications and long-term disabilities [1,2]. Bronchopulmonary dysplasia (BPD), also known as Chronic Lung Disease, is one of the most common complications of preterm birth, affecting up to 30% of preterm infants born before 32 weeks gestational age (GA). The multifactorial nature of BPD makes characterisation difficult. 
+Background
 
-Antenatal and postnatal factors disrupt the developing lung leading to decreased alveolarisation, larger alveoli, irregular pulmonary vessels, and fibrotic tissue [10,11]. In particular, the measures taken at birth to increase survival of preterm infants causes damage to the developing lungs by oxygen toxicity, pulmonary inflammation, and steroid-altered development [24213917]. The effects and consequences of BPD are only beginning to be understood but are life-long - individuals with BPD are more likely to require rehospitalisation during their childhood, to have limited lung function and to display delayed neurodevelopment, compared to VPTI without BPD [12-15]. [EXPAND]
+Bronchopulmonary dysplasia (BPD), also known as Chronic Lung Disease, is one of the most common complications of preterm birth, affecting up to 30% of preterm infants born before 32 weeks post-menstrual age (PMA).1,2,3 Antenatal and postnatal factors disrupt the developing lung, leading to decreased alveolarisation, larger alveoli, irregular pulmonary vessels, and fibrotic tissue.4,5 The effects of BPD are life-long; individuals with BPD are more likely to require rehospitalisation during their childhood, to have limited lung function, and to display delayed neurodevelopment, compared to those born preterm without BPD.6–9
+
+Understanding the molecular mechanisms contributing to BPD could aid in risk prediction, targeted therapies, and disease mechanisms. The heterogeneity of the disease has hampered efforts to identify reliable, consistent biomarkers. So far, though some candidates have been identified (e.g., SPOCK2, CRP), no gene has been significantly associated with the development of BPD via Genome Wide Association Studies (GWAS) or exome sequencing.10–14 This is despite indications from twin studies of the heritability of BPD.15,16 Transcriptomic data has been used to identify four endotypes of BPD, distinguished by T helper cell and T cell signalling. [Moreira] Together these and other studies reflect an effort to incorporate insights from genome-scale research, complementing the longstanding emphasis on clinical studies in the field.
+
+[Animal studies] - what has been found in the studies we looked at
+
+Integrating results from heterogenous sources can allow for novel insights. We conducted a systematic review of the BPD literature, focusing on genome-scale studies in humans and rodents. Results were extracted from identified studies, where possible, and analysed using MAIC. MAIC is a previously described algorithm that uses data-driven gene list weightings to produce a comprehensive ranked list of genes associated with the trait of interest.17–19
+
+[What we found]
 
 
-There is an urgent need to understand BPD despite it's heterogeneity and to develop effective treatments as 2000 new BPD cases occur each year in the UK [REF]
+=====================================================================================
 
-### Genetics of BPD
-The genetic contribution to BPD development remains unclear; unravelling this could aid in risk prediction, targeted therapies, and understanding disease mechanisms.  So far, no genes have been successfully associated with bronchopulmonary dysplasia in humans. Attempts to identify genes associated with the development of BPD via Genome Wide Association Studies (GWAS) and exome sequencing have had only moderate success. While some candidates have been identified [spock2] no gene has ever reached stringent significance levels.[23–27] 
-
-### Animal Models and their suitability
-Research often uses rodent models of BPD, exposing neonatal mice or rats to hyperoxia, mimicking lung injury.  A full-term human is born early in the alveolarization stage of lung development, with 150 million alveoli at birth, 50% of the expected adult number [3956418]. Rodents are born during the saccular stage with alveolarization beginning approximately 5 days after birth [914698]. A key difference is that rodent lungs are primed for gas exchange at this stage in development as the animal must survive ex utero [914698]. In contrast, human lungs are not designed for gas exchange in these earlier stages of development and require medical intervention, resulting in imapired alveolar development [27222921]. This brings into question the relevance of multi-omic research using rodent models aimed toward identifying potential therapeutic targets in BPD. To address this question, this study compares systematically collated information from both human and rodent studies.
-
-### Results summary
-To identify existing literature that could provide informative datasets indicating genes associated with BPD, we conducted a systematic review of published studies manuscripts pertaining to the disease. Results were extracted from identified studies, where possible, and analysed using MAIC. MAIC is a previously described algorithm that uses data-driven gene list weightings to produce a comprehensive ranked list of genes implicated in the disease or syndrome considered.[33339864;31919360;36094347] 
 
 ## Results
 
