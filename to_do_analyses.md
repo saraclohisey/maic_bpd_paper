@@ -1,19 +1,61 @@
 # TO DO
 
+Manuscript
+
+### Intro
+
+- [ ] Describe animal studies
+- [ ] Describe what we find (summary) 
+
+### Results
+
+Figures
+
+- [ ] Characterisation of datasets for Figures
+- [ ] Doughnut charts? Barcharts? Sankey Diagram?
+        
+    - [ ] 1. Human Figure 1
+      - [ ] A. Inflection point
+      - [ ] B. Tissue
+      - [ ] C. Technique/Method
+      - [ ] D. Gestational age
+         
+   - [ ] 2. Tissue and Cell-Specific Expression and Functional Enrichment
+     - [ ]   A. Tissues
+     - [ ]   B. Functional enrichment
+     - [ ]   C. Protein MCL
+     
+   - [ ] 3. Overlap with ARDS
+     - [ ]   A. Tissues
+     - [ ]   B. FE
+     - [ ]   C. Protein MCL 
+            
+    - [ ] 4. Animal Figure 
+      - [ ] A. Inflection point
+      - [ ] B. Rat vs Mouse
+      - [ ] C. Technique/Method
+      - [ ] D. Tissue
+
+   - [ ] 5. Overlap Rodent with Human BPD
+     - [ ]   A. Tissues
+     - [ ]   B. FE
+     - [ ]   C. Protein MCL
+
+### Discussion
+
+- [ ] Figure?
+- [ ] Summary of results
 - [ ] What DOESN'T overlap with BPD/ARDS in humans?
+- [ ] T - cells
+- [ ] Mechanical ventilation overall
 
-- [ ] Tcells
 
-- [ ] Characterisation of datasets
-  - [ ] Doughnut charts? Barcharts? Sankey Diagram?
-    - [ ] Human:
-      - [ ] Tissue
-      - [ ] Technique/Method
-      - [ ] Gestational age
-    - [ ] Animal:
-      - [ ] Rat vs Mouse
-      - [ ] Technique/Method
-      - [ ] Tissue
+### Methods
+      
+=================================================
+
+
+Completed in 2024
 
 - [X] Find inflection points/knees
   - [x]  Animal
@@ -46,12 +88,5 @@
   - [x] Prioritised
   - bpd_animal_maic/06_downstreamanalysis/R_exports/HumanvsMurine_Overlap
      
-
-
-
 - [x] Functional analysis with p < 0.01
   - bpd_animal_maic/06_downstreamanalysis/R_exports/BPD_Murine_Enrichment
-     
-
-         
-  - [ ] 
