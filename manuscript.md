@@ -6,34 +6,29 @@
 
 
 ## Introduction
-Background
+### Background
 
-Bronchopulmonary dysplasia (BPD), also known as Chronic Lung Disease, is one of the most common complications of preterm birth, affecting up to 30% of preterm infants born before 32 weeks post-menstrual age (PMA).1,2,3 Antenatal and postnatal factors disrupt the developing lung, leading to decreased alveolarisation, larger alveoli, irregular pulmonary vessels, and fibrotic tissue.4,5 The effects of BPD are life-long; individuals with BPD are more likely to require rehospitalisation during their childhood, to have limited lung function, and to display delayed neurodevelopment, compared to those born preterm without BPD.6–9
+Bronchopulmonary dysplasia (BPD), also known as Chronic Lung Disease, is one of the most common complications of preterm birth, affecting up to 30% of preterm infants born before 32 weeks post-menstrual age (PMA).1,2,3 Antenatal and postnatal factors disrupt the developing lung leading to decreased alveolarisation, larger alveoli, irregular pulmonary vessels, and fibrotic tissue.4,5 The effects of BPD are life-long; individuals with BPD are more likely to require rehospitalisation during their childhood, to have limited lung function and to display delayed neurodevelopment, compared to those born preterm without BPD.6–9
 
-Understanding the molecular mechanisms contributing to BPD could aid in risk prediction, targeted therapies, and disease mechanisms. The heterogeneity of the disease has hampered efforts to identify reliable, consistent biomarkers. So far, though some candidates have been identified (e.g., SPOCK2, CRP), no gene has been significantly associated with the development of BPD via Genome Wide Association Studies (GWAS) or exome sequencing.10–14 This is despite indications from twin studies of the heritability of BPD.15,16 Transcriptomic data has been used to identify four endotypes of BPD, distinguished by T helper cell and T cell signalling. [Moreira] Together these and other studies reflect an effort to incorporate insights from genome-scale research, complementing the longstanding emphasis on clinical studies in the field.
+Understanding the molecular mechanisms that contribute to BPD could aid in risk prediction, targeted therapies, and understanding disease mechanisms. The heterogeneity of the disease has hampered efforts to identify reliable, consistent biomarkers. So far, though some candidates have been identified (e.g. SPOCK2, CRP) no gene has been significantly associated with the development of BPD via Genome Wide Association Studies (GWAS) or exome sequencing.10–14 This is despite indications from twin studies of the heritability of BPD.15,16 Transcriptomic data has been used to identify four endotypes of BPD, distinguished by T helper cell and T cell signalling.17  Together these, and other studies, reflect an effort to incorporate insights from genome-scale research, complementing the longstanding emphasis on clinical studies in the field.
 
-[Animal studies] - what has been found in the studies we looked at
+[Animal studies] CH 20-50 words
 
-Integrating results from heterogenous sources can allow for novel insights. We conducted a systematic review of the BPD literature, focusing on genome-scale studies in humans and rodents. Results were extracted from identified studies, where possible, and analysed using MAIC. MAIC is a previously described algorithm that uses data-driven gene list weightings to produce a comprehensive ranked list of genes associated with the trait of interest.17–19
+Integrating results from heterogenous sources can allow for novel insights. We conducted a systematic review of the BPD literature, focusing on genome-scale studies in humans and rodents. Results were extracted from identified studies, where possible, and analysed using MAIC. MAIC is a previously described algorithm that uses data-driven gene list weightings to produce a comprehensive ranked list of genes associated with the trait of interest.18–20
 
-[What we found]
-
-
-=====================================================================================
-
-
+[What we found] PK 20-50 words
+ 
 ## Results
 
-### Systematic review
-We conducted a systematic review of existing studies, which reported associations between genes, transcripts, or proteins, and the development of BPD in humans or the study of BPD in animal (Supp inf). To ensure we were thorough in our approach and we did not limit the search to any specific definition of BPD in humans or animal models. Our search yielded 4450 unique citations that were evaluated for inclusion [Supplementary Figures for PRISMA diagrams]. For full text evaluation we retrieved XX articles for human studies and XX for animal studies. We found that although large animal models are often used to explore BPD,[examples, sheep IUGR, pig] we found no such study which met our inclusion criteria. [Supplementary figure of inclusion] 
+### Systematic review and meta-analysis by information content
+We conducted a systematic review of studies that reported associations between genes, transcripts, or proteins, and the development of BPD in humans or the study of BPD in animal models. We did not limit the search to any specific definition of BPD in humans or animal models. Our search yielded 4450 unique citations that were evaluated for inclusion [Supplementary Figures 1 and 2]. For full text evaluation we retrieved 76 articles for human studies and 118 for animal studies. There was no overlap. Although large animal models are occasionally used to explore BPD,2122 we found none that met our inclusion criteria which are outlined in Supplementary Table 2 and 3. 
 
-[Anything else to  say here?]
-
-### MAIC analysis
-We first focused on the human studies and and identified 21 peer-reviewed studies that met our eligibility criteria. This yielded 31 gene lists, 23 ranked and 8 unranked, employing 5 experimental techniques (Mass spectrometry, GWAS, microarray, exomeSeq, RNAseq) [FIGURE]. The gene list could not be retrieved for one RNAseq study.  All but a single study used primary tissue or samples. While the definition of BPD varied between studies, over two-thirds of studies, (71.4%, 15/21), used respiratory support at 36 weeks GA.[NNAP/NICHD] 
-Of 8017 genes implicated across the datasets. Only a single gene was supported by evidence from all 5 experimental techniques (RASGRP3). Few genes were supported by more than 1 method (n = 745, 9.74%), with 53 genes (0.6%) supported by >=3 methods. We prioritised 945 genes for further investigation, as previously described [Millar]. 
+From the 81 human studies, 21 met our eligibility criteria. This yielded 31 gene lists, 23 ranked and 8 unranked, employing 5 experimental techniques (Mass spectrometry, GWAS, microarray, exomeSeq, RNAseq) [Supplementary Table 3] and representing 4358 infants (cases = 2247, controls = 2111).  All but a single study used primary tissue or samples. While the definition of BPD varied between studies, over two-thirds of studies, (71.4%, 15/21), used receipt of respiratory support at 36 weeks PMA.3 Of 8017 unique genes collated across the datasets, only a single gene was supported by evidence from all 5 experimental techniques (RASGRP3, rank = 1). Few genes were supported by more than 1 method (n = 745, 9.74%), with 53 genes (0.6%) supported by >=3 methods. We prioritised 945 genes for further investigation, as previously described [Figure 1A].23
 
 <!--We did not include miRNA lists.-->
+
+### Tissue and Cell-Specific Expression
+
 
 ### Functional Enrichment 
 Functional enrichment analyses focused on the prioritised list of 945 genes. First, we performed over representation analysis. Genes associated with immunity, in particular T cell immunity, are over-represented. Reactome showed over representation of genes associated with the activity of ZAP-70 in T cell polarization and proliferation [PMID:12387734, 32948597, 15059847], though ZAP70 appears in the overall list of genes, it is not highly ranked by MAIC (3982) and is supported by a single study [yuon chou]. 
