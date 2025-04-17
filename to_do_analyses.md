@@ -5,7 +5,7 @@ Manuscript
 ### Intro
 
 - [ ] Describe animal studies
-- [ ] Describe what we find (summary) 
+- [x ] Describe what we find (summary) 
 
 ### Results
 
