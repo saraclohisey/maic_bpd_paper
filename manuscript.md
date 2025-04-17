@@ -16,7 +16,8 @@ Understanding the molecular mechanisms that contribute to BPD could aid in risk 
 
 Integrating results from heterogenous sources can allow for novel insights. We conducted a systematic review of the BPD literature, focusing on genome-scale studies in humans and rodents. Results were extracted from identified studies, where possible, and analysed using MAIC. MAIC is a previously described algorithm that uses data-driven gene list weightings to produce a comprehensive ranked list of genes associated with the trait of interest.18–20
 
-[What we found] PK 20-50 words
+Our findings demonstrate that BPD is a complex disease which involves dysregulation in immune signaling, vascular development and extracellular matrix organisation. Of note, several of our analyses highlighted the involvement of T cell-associated genes, suggesting that adaptive immunity may play a larger role in BPD pathogenesis than previously appreciated.
+
  
 ## Results
 
