@@ -48,21 +48,12 @@ We were interested in the similarities between ARDS in adults and BPD in neonate
 <!-- Specific results worth highlighting -->
 Our analysis prioritised 1783 genes for functional enrichment using the unit invariant knee method. These genes were further investigated using KEGG, Reactome and GO Biological Processes. From this, key themes emerged that supported evidence that BPD involves chronic inflammation, disrupted lung development and immune response. 
 
-KEGG: Enriched terms supported evidence of dysregulated growth and development pathways including  ‘pathways in cancer’ and ‘transcriptional misregulation in cancer’. Alongside this, the ‘AGE-RAGE signalling pathway’ is associated with inflammation and oxidative stress – relating to hyperoxia induced injury in BPD. 
+### Rodent - specific - Functional Enrichment
+KEGG: Enriched terms supported evidence of dysregulated growth and development pathways including  ‘pathways in cancer’ and ‘transcriptional misregulation in cancer’. Alongside this, the ‘AGE-RAGE signalling pathway’ is associated with inflammation and oxidative stress – relating to hyperoxia induced injury in BPD. Enrichment of ‘complement and coagulation cascades’ points towards innate immune activity and potential vascular involvement. ‘Chemokine signalling’ and ‘TNF signalling’ emphasise the role of inflammatory processes.
 
-Enrichment of ‘complement and coagulation cascades’ points towards innate immune activity and potential vascular involvement. ‘Chemokine signalling’ and ‘TNF signalling’ emphasise the role of inflammatory processes.
+Reactome: ‘Extracellular matrix (ECM) organisation’ alongside ‘collagen formation’ and ‘assembly of collagen fibrils’ highlights structural remodelling in BPD, reflecting fibrosis and impaired alveolarisation. ‘Elastic fibre formation’ may contribute to long-term respiratory dysfunction. Enrichment with reactome reinforced a strong inflammatory component observed in BPD (‘immune system’ and ‘innate immune system’). ‘Haemostasis’ and ‘platelet activation, signalling and aggregation’ indicate endothelial injury and pro-thrombotic processes within the lung vasculature. This, as well as ‘cell surface interactions at the vascular wall’ support evidence of vascular remodelling as a key factor in BPD pathophysiology. 
 
-Reactome: ‘Extracellular matrix (ECM) organisation’ alongside ‘collagen formation’ and ‘assembly of collagen fibrils’ highlights structural remodelling in BPD, reflecting fibrosis and impaired alveolarisation. ‘Elastic fibre formation’ may contribute to long-term respiratory dysfunction.
-
-Enrichment with reactome reinforced a strong inflammatory component observed in BPD (‘immune system’ and ‘innate immune system’). ‘Haemostasis’ and ‘platelet activation, signalling and aggregation’ indicate endothelial injury and pro-thrombotic processes within the lung vasculature. This, as well as ‘cell surface interactions at the vascular wall’ support evidence of vascular remodelling as a key factor in BPD pathophysiology. 
-
-GOBP: Neutrophil-related processes were predominantly enriched, including: ‘neutrophil-mediated immunity’, ‘Neutrophil activation involved in immune response’, and ‘neutrophil degranulation’. These terms highlight the role of innate immune cells and their inflammatory effects in BPD pathogenesis. 
-
-Supporting results from the Reactome enrichment, ‘extracellular matrix organisation’ was significantly enriched, a hallmark of lung injury and fibrosis. 
-
-Cytokine-related signalling was also enriched, particularly ‘cellular response to cytokine stimulus’ and ‘cytokine-mediated signalling pathway’. 
-
-Apoptotic processes appeared both positively and negatively regulated, inferring complicated regulation of cell death during lung injury and repair. 
+GOBP: Neutrophil-related processes were predominantly enriched, including: ‘neutrophil-mediated immunity’, ‘Neutrophil activation involved in immune response’, and ‘neutrophil degranulation’. These terms highlight the role of innate immune cells and their inflammatory effects in BPD pathogenesis. Supporting results from the Reactome enrichment, ‘extracellular matrix organisation’ was significantly enriched, a hallmark of lung injury and fibrosis. Cytokine-related signalling was also enriched, particularly ‘cellular response to cytokine stimulus’ and ‘cytokine-mediated signalling pathway’. Apoptotic processes appeared both positively and negatively regulated, inferring complicated regulation of cell death during lung injury and repair. 
 
 ### Overlap between Human and Rodent BPD 
 We analysed the overlap between the results of the human and rodent BPD MAICs. Of the 8017 genes from the human results, and the 6764 genes from the rodent results: 2462 genes overlapped (36.4%). Using the prioritised lists from both analyses, 945 human and 1369 rodent, we found 125 overlapping genes (9.1%). (Euler plots). The size of this overlap may reflect the underlying differences in human and rodent lung development that render the two incomparable in terms of BPD pathophysiology. 
