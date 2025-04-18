@@ -46,18 +46,23 @@ We were interested in the similarities between ARDS in adults and BPD in neonate
 
 ### Rodent - specific - MAIC analysis
 <!-- Specific results worth highlighting -->
-The 1369 prioritised genes progressed to functional enrichment using KEGG, Reactome, and GO Biological Processes. Key themes emerged that supported evidence that BPD involves chronic inflammation, disrupted lung modelling, and vascular dysfunction. 
+Our analysis prioritised 1783 genes for functional enrichment using the unit invariant knee method. These genes were further investigated using KEGG, Reactome and GO Biological Processes. From this, key themes emerged that supported evidence that BPD involves chronic inflammation, disrupted lung development and immune response. 
 
-KEGG: Enrichment of IL-17, TNF and chemokine signalling pathways suggest a strong inflammatory component. Complement and coagulation cascades indicate potential immune-mediated vascular injury and coagulation abnormalities. 
+KEGG: Enriched terms supported evidence of dysregulated growth and development pathways including  ‘pathways in cancer’ and ‘transcriptional misregulation in cancer’. Alongside this, the ‘AGE-RAGE signalling pathway’ is associated with inflammation and oxidative stress – relating to hyperoxia induced injury in BPD. 
 
-Reactome: Significantly enriched terms through Reactome support strong immune involvement in BPD, including neutrophil degranulation and cytokine signalling pathways (IL-4, IL-10, IL-12, IL 13). Haemostasis and platelet activation, signalling and aggregation were also significantly enriched – linking coagulation to BPD-related lung injury. 
+Enrichment of ‘complement and coagulation cascades’ points towards innate immune activity and potential vascular involvement. ‘Chemokine signalling’ and ‘TNF signalling’ emphasise the role of inflammatory processes.
 
-Tissue remodelling featured heavily throughout significantly enriched terms. Extracellular matrix organisation, collagen formation, degradation of ECM, elastic fibre formation, and assembly of collagen fibrils all support evidence of ongoing ECM remodelling which is critical in lung development and fibrosis in BPD. Another enriched term, molecules associated with elastic fibres, reinforces the importance of lung structural integrity and elasticity which may be disrupted in BPD. 
+Reactome: ‘Extracellular matrix (ECM) organisation’ alongside ‘collagen formation’ and ‘assembly of collagen fibrils’ highlights structural remodelling in BPD, reflecting fibrosis and impaired alveolarisation. ‘Elastic fibre formation’ may contribute to long-term respiratory dysfunction.
 
-GOBP: Terms associated with inflammation and immune response (immune system process, regulation of immune system process, defence response, and inflammatory response) again support evidence of immune dysregulation in BPD pathogenesis. 
-Lung and vascular development were strongly implicated among significantly enriched terms. Multicellular organism development, tissue development, and anatomical structure development were all among the top 50 terms. Circulatory system development, vasculature development, blood vessel development, and blood vessel morphogenesis were also enriched. These terms highlight the role of vascular dysfunction and also support the impaired vessel development hypothesised as a component of BPD pathogenesis. 
-Cell differentiation, cellular development process, and positive regulation of multicellular organismal process indicate that abnormal cell differentiation may impair lung maturation in BPD. Enrichment of cell migration and cell motility suggest altered cell movement, which is crucial for lung tissue organisation and repair. Programmed cell death, apoptotic process and cell death support the idea that dysregulated apoptosis may contribute to altered alveoli development in BPD. 
-Response to stimulus, stress, chemical and external stimulus support evidence that premature lungs are sensitive to environmental factors such as oxygen therapy and mechanical ventilation. Response to hypoxia is a relevant enriched term, as oxygen dysregulation is a key factor in BPD pathophysiology 
+Enrichment with reactome reinforced a strong inflammatory component observed in BPD (‘immune system’ and ‘innate immune system’). ‘Haemostasis’ and ‘platelet activation, signalling and aggregation’ indicate endothelial injury and pro-thrombotic processes within the lung vasculature. This, as well as ‘cell surface interactions at the vascular wall’ support evidence of vascular remodelling as a key factor in BPD pathophysiology. 
+
+GOBP: Neutrophil-related processes were predominantly enriched, including: ‘neutrophil-mediated immunity’, ‘Neutrophil activation involved in immune response’, and ‘neutrophil degranulation’. These terms highlight the role of innate immune cells and their inflammatory effects in BPD pathogenesis. 
+
+Supporting results from the Reactome enrichment, ‘extracellular matrix organisation’ was significantly enriched, a hallmark of lung injury and fibrosis. 
+
+Cytokine-related signalling was also enriched, particularly ‘cellular response to cytokine stimulus’ and ‘cytokine-mediated signalling pathway’. 
+
+Apoptotic processes appeared both positively and negatively regulated, inferring complicated regulation of cell death during lung injury and repair. 
 
 ### Overlap between Human and Rodent BPD 
 We analysed the overlap between the results of the human and rodent BPD MAICs. Of the 8017 genes from the human results, and the 6764 genes from the rodent results: 2462 genes overlapped (36.4%). Using the prioritised lists from both analyses, 945 human and 1369 rodent, we found 125 overlapping genes (9.1%). (Euler plots). The size of this overlap may reflect the underlying differences in human and rodent lung development that render the two incomparable in terms of BPD pathophysiology. 
