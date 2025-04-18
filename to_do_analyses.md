@@ -15,14 +15,14 @@ Figures
 - [ ] Doughnut charts? Barcharts? Sankey Diagram?
         
     - [ ] 1. Human Figure 1
-      - [ ] A. Inflection point
+      - [X] A. Inflection point
       - [ ] B. Tissue
       - [ ] C. Technique/Method
       - [ ] D. Gestational age
          
    - [ ] 2. Tissue and Cell-Specific Expression and Functional Enrichment
      - [ ]   A. Tissues
-     - [ ]   B. Functional enrichment
+     - [X]   B. Functional enrichment
      - [ ]   C. Protein MCL
      
    - [ ] 3. Overlap with ARDS
@@ -31,14 +31,14 @@ Figures
      - [ ]   C. Protein MCL 
             
     - [ ] 4. Animal Figure 
-      - [ ] A. Inflection point
+      - [X] A. Inflection point
       - [ ] B. Rat vs Mouse
       - [ ] C. Technique/Method
       - [ ] D. Tissue
 
    - [ ] 5. Overlap Rodent with Human BPD
      - [ ]   A. Tissues
-     - [ ]   B. FE
+     - [X]   B. FE
      - [ ]   C. Protein MCL
 
 ### Discussion
