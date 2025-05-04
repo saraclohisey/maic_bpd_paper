@@ -56,21 +56,19 @@ Reactome: ‘Extracellular matrix (ECM) organisation’ alongside ‘collagen fo
 GOBP: Neutrophil-related processes were predominantly enriched, including: ‘neutrophil-mediated immunity’, ‘Neutrophil activation involved in immune response’, and ‘neutrophil degranulation’. These terms highlight the role of innate immune cells and their inflammatory effects in BPD pathogenesis. Supporting results from the Reactome enrichment, ‘extracellular matrix organisation’ was significantly enriched, a hallmark of lung injury and fibrosis. Cytokine-related signalling was also enriched, particularly ‘cellular response to cytokine stimulus’ and ‘cytokine-mediated signalling pathway’. Apoptotic processes appeared both positively and negatively regulated, inferring complicated regulation of cell death during lung injury and repair. 
 
 ### Overlap between Human and Rodent BPD 
-We analysed the overlap between the results of the human and rodent BPD MAICs. Of the 8017 genes from the human results, and the 6764 genes from the rodent results: 2462 genes overlapped (36.4%). Using the prioritised lists from both analyses, 945 human and 1369 rodent, we found 125 overlapping genes (9.1%). (Euler plots). The size of this overlap may reflect the underlying differences in human and rodent lung development that render the two incomparable in terms of BPD pathophysiology. 
+We analysed the overlap between the Human and rodent BPD MAIC results. Of the 8017 genes from the human results, and 7636 genes from the rodent results: 2747 genes overlapped (35.97%). Using the prioritised lists from both analyses, 945 human and 1783 rodent, there were 163 overlapping genes (9.14%). This relatively limited overlap may reflect species-specific differences in disease mechanisms, limiting the extent to which findings from rodent models can be directly translated to human BPD.
 
-Functional enrichment of the 125 prioritised overlapping genes through GO Biological Processes revealed 139 significantly enriched terms (FDR <0.01). The top 30 are displayed in a bubble plot.
+We carried out functional enrichment of the overlapping prioritised genes using GOBP, KEGG and Reactome to investigate the biological mechanisms that may be conserved between species. Generally, this revealed a consistent signature of immune-related biological processes. (figures)
 
-- Immune system involvement
-- T and B cell activation
-- Cell death and apoptosis
-- ECM and cell adhesion
-- Signal transduction and cytokine mediated pathways
- 
-Immune system involvement was again a strong theme among enriched terms, supporting the idea that BPD is driven by exaggerated immune response. These terms related to immune activation, inflammation and cytokine signalling. Pathways involved in programmed cell death and apoptosis highlight the destructive effects of hyperoxia and inflammation on lung cells, key mechanisms in BPD pathology. However, due to developmental differences in human and rodent lungs, these pathways may not be directly comparable. 
+GOBP: Terms such as ‘neutrophil activation’, ‘neutrophil degranulation’, and ‘neutrophil-mediated immunity’ were significantly enriched, indicating a conserved involvement of neutrophil-driven innate immune responses in BPD pathogenesis across species. In addition, several terms relating to cytokine signalling and immune regulation were enriched, including ‘cytokine-mediated signalling pathway’, ‘cellular response to cytokine stimulus’, and ‘regulation of interleukin-2 biosynthetic process’. These results are in keeping with a shared up-regulation of both pro-inflammatory signalling and adaptive immune processes.
 
-Terms associated with extracellular matrix and cell adhesion support the role of disrupted lung structure and fibrosis in BPD. However, this is another aspect that due to innate differences in lung development between humans and rodents, may not be equivalent.  
+KEGG: Key pathways included ‘haematopoietic cell lineage’, ‘T cell receptor signalling’, and ‘cytokine–cytokine receptor interaction’, further support shared involvement of both innate and adaptive immune responses. Enrichment for ‘primary immunodeficiency genes’ and ‘cell adhesion molecules’ suggests dysregulation of immune development. Pathways such as ‘complement and coagulation cascades’, and those associated with infectious disease responses (Staphylococcus Aureus and Measles), reflect heightened inflammatory signalling.
 
-<!-- Summary of overlap -->
+Reactome: Enriched terms included broad categories such as ‘Immune System’ and ‘Adaptive Immune System’, as well as more specific pathways like ‘Cytokine Signalling in Immune System’ and ‘Signalling by Interleukins’, strengthen evidence of immune-mediated mechanisms. Several T cell-specific pathways were also enriched, including ‘Translocation of ZAP-70 to the Immunological Synapse’, ‘Phosphorylation of CD3 and TCR zeta chains’, and Costimulation by the CD28 family’, reinforcing the role of adaptive immunity. 
+
+These findings suggest that despite broader transcriptomic differences between human and rodent BPD…
+
+However due to developmental differences, these results may not be directly comparable...
 
 ## Discussion
 
