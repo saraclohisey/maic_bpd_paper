@@ -60,7 +60,7 @@ We analysed the overlap between the Human and rodent BPD MAIC results. Of the 80
 
 <!--the 163 number is 9.14% of the rodent list, but is 17.25% of the human list-->
 
-We carried out functional enrichment of the overlapping prioritised genes using GOBP, KEGG and Reactome to investigate the biological mechanisms that may be conserved between species. Generally, this revealed a consistent signature of immune-related biological processes. (figures)
+We carried out over representation analysis of the overlapping prioritised genes using GOBP, KEGG and Reactome to investigate the biological mechanisms that may be conserved between species. Generally, this revealed a consistent signature of immune-related biological processes. (figures)
 
 GOBP: Terms such as ‘neutrophil activation’, ‘neutrophil degranulation’, and ‘neutrophil-mediated immunity’ were significantly enriched, indicating a conserved involvement of neutrophil-driven innate immune responses in BPD pathogenesis across species. In addition, several terms relating to cytokine signalling and immune regulation were enriched, including ‘cytokine-mediated signalling pathway’, ‘cellular response to cytokine stimulus’, and ‘regulation of interleukin-2 biosynthetic process’. These results are in keeping with a shared up-regulation of both pro-inflammatory signalling and adaptive immune processes.
 
