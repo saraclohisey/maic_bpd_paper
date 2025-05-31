@@ -46,7 +46,7 @@ We were interested in the similarities between ARDS in adults and BPD in neonate
 
 ### Rodent - specific - MAIC analysis
 <!-- Specific results worth highlighting -->
-Our analysis prioritised 1783 genes for functional enrichment using the unit invariant knee method. These genes were further investigated using KEGG, Reactome and GO Biological Processes. From this, key themes emerged that supported evidence that BPD involves chronic inflammation, disrupted lung development and immune response. 
+Our analysis prioritised 1783 genes for functional enrichment using the unit invariant knee method. These genes progressed to over representation analysis using KEGG, Reactome and GO Biological Processes. From this, key themes emerged, supporting evidence that BPD involves chronic inflammation, disrupted lung development and immune response. 
 
 ### Rodent - specific - Functional Enrichment
 KEGG: Enriched terms supported evidence of dysregulated growth and development pathways including  ‘pathways in cancer’ and ‘transcriptional misregulation in cancer’. Alongside this, the ‘AGE-RAGE signalling pathway’ is associated with inflammation and oxidative stress – relating to hyperoxia induced injury in BPD. Enrichment of ‘complement and coagulation cascades’ points towards innate immune activity and potential vascular involvement. ‘Chemokine signalling’ and ‘TNF signalling’ emphasise the role of inflammatory processes.
