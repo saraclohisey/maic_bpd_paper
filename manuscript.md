@@ -66,9 +66,7 @@ KEGG: Key pathways included ‘haematopoietic cell lineage’, ‘T cell recepto
 
 Reactome: Enriched terms included broad categories such as ‘Immune System’ and ‘Adaptive Immune System’, as well as more specific pathways like ‘Cytokine Signalling in Immune System’ and ‘Signalling by Interleukins’, strengthen evidence of immune-mediated mechanisms. Several T cell-specific pathways were also enriched, including ‘Translocation of ZAP-70 to the Immunological Synapse’, ‘Phosphorylation of CD3 and TCR zeta chains’, and Costimulation by the CD28 family’, reinforcing the role of adaptive immunity. 
 
-These findings suggest that despite broader transcriptomic differences between human and rodent BPD…
-
-However due to developmental differences, these results may not be directly comparable...
+These findings suggest that despite broader transcriptomic differences between human and rodent BPD, shared immunological mechanisms can still be identified when examining prioritised genes from both species. In particular, pathways involving neutrophil activation and T cell signalling may represent conserved elements of BPD pathogenesis and potential targets for therapeutic intervention. However, due to key developmental differences - such as timing of alveolarisation and immune system maturation - these results may not be directly comparable. Some enriched pathways may reflect rodent-specific responses to experimental injury rather than universally conserved disease mechanisms. Future research may benefit from prioritising comparisons of convergent biological processes, rather than exact gene matches when investigating BPD across species.
 
 ## Discussion
 
