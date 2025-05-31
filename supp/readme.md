@@ -18,9 +18,10 @@ PRISMA diagram detailing identification of rodent studies associated with bronch
 # Supplementary Tables
 
 ## Supp. Table 1:
-
-## Supp. Table 2: 
 Inclusion criteria for human systematic review
 
-## Supp. Table 3: 
+## Supp. Table 2: 
 Inclusion criteria for rodent systematic review
+
+## Supp. Table 3: 
+Overview of human lists included in MAIC
