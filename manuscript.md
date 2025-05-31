@@ -77,19 +77,19 @@ Systematic review and meta-analysis protocol was registered with the Internation
 ### Search Strategy and Selection Criteria
 #### Human
 #### Animal
-_•	Search Strategy – SUPP 
-•	Inclusion and Exclusion criteria – SUPP__
-A detailed description of our search strategy and eligibility criteria is provided in the supplementary materials. MEDLINE and Embase were searched on 24/05/2024. We included genome-wide studies reporting associations between genes, transcripts or proteins and BPD in both human and rodent models. For rodent studies, definitions of BPD study groups were accepted as hyperoxic exposure and induced low birth weight. We excluded in-vitro BPD models, and candidate studies (<50 genes/proteins). 
+A detailed description of our search strategy and eligibility criteria is provided in the supplementary materials (Supp. data 1 and Supp. data 2). MEDLINE and Embase were searched on 24/05/2024. We included genome-wide studies reporting associations between genes, transcripts or proteins and BPD in both human and rodent models. For rodent studies, definitions of BPD study groups were accepted as hyperoxic exposure and induced low birth weight. We excluded in-vitro BPD models, and candidate studies (<50 genes/proteins).
 
 #### Study Selection and Data Extraction
-Following deduplication, titles were initially screened using Screenatron (REF). This included organising the studies into separate collections of human and animal studies. Abstracts were then screened against eligibility criteria, with an independent author resolving inconsistencies. Full texts were retrieved and analysed for inclusion before extraction of gene lists for inclusion in MAIC. 
+Following deduplication, titles were initially screened using Screenatron (REF). This included organising the studies into separate collections of human and animal studies. Abstracts were then screened against eligibility criteria, with an independent author resolving inconsistencies. Full texts were retrieved and analysed for inclusion before extraction of gene lists for inclusion in MAIC. Each step of this process is displayed in PRISMA diagrams (Supp. Figure 1 and Supp. Figure 2) [33782057]. The human data was standardised according to HGNC symbols or Ensembl/RefSeq equivalents when no HGNC symbol was available. Animal data was mapped to human ortholog symbols to allow for comparison. 
 
-The human data was standardised according to HGNC symbols or Ensembl/RefSeq equivalents when no HGNC symbol was available. 
-Animal data was mapped to human ortholog symbols to allow for comparison with the human MAIC results. 
-
-#### MAIC
-The MAIC algorithm has previously been described in detail (REF). A full description and the source code is available at https://baillielab.net/maic. MAIC combines both ranked and unranked lists, of unknown quality, to build a comprehensive ranked list of entities according to 4 basic assumptions. 
+### MAIC
+The MAIC algorithm has previously been described in detail [31919360]. A full description and the source code is available at https://baillielab.net/maic. MAIC combines both ranked and unranked lists, of unknown quality, to build a comprehensive ranked list of entities according to 4 basic assumptions. 
 1.	There is a set of true positives (host genes implicated in BPD) 
 2.	A gene is more likely to be a true positive if it appears in datasets from more than one source
 3.	A gene is more likely to be a true positive if it appears in datasets with a higher proportion of replicated genes
 4.	A gene is more likely to be a true positive if it appears in datasets from multiple methods or modalities.
+
+### Functional Enrichment 
+We performed over represenation analysis with Gprofiler (REF). This utilised 3 data sources: Kyoto Encyclopaedia of Genes and Genomes (KEGG), Reactome, Gene Ontology Biological Processes (REFs). 
+
+### STRING Analysis
