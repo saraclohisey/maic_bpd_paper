@@ -36,3 +36,6 @@ Treeplot of GO:BP
 String analysis
 ## C
 Cytohubba of hub genes
+
+# Figure 6
+hBPD vs rBPD
