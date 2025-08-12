@@ -1,6 +1,6 @@
 # maic_bpd_paper
 
-This repository is where all preparation for the maic bpd manuscript should be kept.
+This repository is where all preparation for the maic bpd manuscript should be kept. The analysis can be found here: https://github.com/saraclohisey/maic_bpd_analysis
 
 Author list: 
 
