@@ -10,9 +10,9 @@ Manuscript
 ### Results
 
 Sections that require numbers updated/checked
-- [ ] Systematic review and meta-analysis by information content
+- [X] Systematic review and meta-analysis by information content
 - [ ] Functional Enrichment
-- [ ] Rodent - broad - systematic review info 
+- [X] Rodent - broad - systematic review info 
 - [X] Rodent - specific - maic analysis
 - [X] Overlap between Human and Rodent BPD
 
