@@ -10,6 +10,10 @@ Analysis: Chris Happs*, Prerna Khanna*, Charlotte Scoynes, Julia Anderson, Nicho
 
 Abstracts: Chris Happs, Prerna Khanna, Nelly Muriungi, Akira Alexander, Josh Rogers, Nicholas Parkinson, Elizabeth Lake, Max Pickup, Sara Clohisey Hendry.
 
+
+To Do: Identify BPD contributor
+Chinthika?
+
 Journals:
 
 1st choice: BMC Respiratory Research
