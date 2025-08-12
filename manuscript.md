@@ -11,11 +11,12 @@ Running title: Meta-analysis of Bronchopulmonary Dysplasia
 ABSTRACT
 
 Background
-...
+Despite marked improvements in survival following preterm birth, the incidence of bronchopulmonary dysplasia (BPD) continues to rise. BPD remains the most prevalent complication of prematurity and carries the risk of long-term morbidity. Characterising the cellular and molecular mechanisms driving disease progression is critical for informing clinical management and improving outcomes. To this end, we conducted a meta-analysis of genome-scale studies to identify molecular pathways implicated in BPD progression in both human cohorts and animal models.
+
 
 Methods
 
-Gene lists associated with bronchopulmonary dysplasia in humans and in rodent models were obtained from systematically identified genome-scale studies. These lists were then analysed using the meta-analysis by information content (MAIC) algorithm, which integrates multiple datasets to produce a single aggregated, ranked gene list based on the cumulative strength of evidence for each gene.
+Gene lists associated with bronchopulmonary dysplasia in human and rodent models were obtained from systematically identified genome-scale studies. These lists were then analysed using the meta-analysis by information content (MAIC) algorithm, which integrates multiple datasets to produce a single aggregated, ranked gene list based on the cumulative strength of evidence for each gene.
 
 Results
 ...
