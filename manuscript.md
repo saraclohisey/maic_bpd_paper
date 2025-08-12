@@ -1,95 +1,148 @@
+Systems-Level Insights into Bronchopulmonary Dysplasia from Meta-Analysis of Genome-Scale Studies
 
-# Working Title 
-# Unravelling Bronchopulmonary Dysplasia Through Multi-Omics Meta-Analysis
+Chris Happs1,2*, Prerna Khanna1,2*, Charlotte Scoynes2, Nelly Muriungi1, Akira Alexander1, Josh Rogers1, Elizabeth Lake1,2, Maximillian Pickup1,2, Nicholas Parkinson1, Jonathan Millar2, Kenneth Baillie1,2, Sara Clohisey Hendry1,2
 
-<!-- To add a reference, add the PMID -->
+*  These authors contributed equally
+1.	Roslin Institute, University of Edinburgh, Edinburgh, U.K.
+2.	Baillie-Gifford Pandemic Science Hub, Institute for Regeneration and Repair, University of Edinburgh, Edinburgh, U.K.
+
+Running title: Meta-analysis of Bronchopulmonary Dysplasia
+ 
+ABSTRACT
+
+Background
+...
+
+Methods
+
+Gene lists associated with bronchopulmonary dysplasia in humans and in rodent models were obtained from systematically identified genome-scale studies. These lists were then analysed using the meta-analysis by information content (MAIC) algorithm, which integrates multiple datasets to produce a single aggregated, ranked gene list based on the cumulative strength of evidence for each gene.
+
+Results
+...
+
+Conclusions
+...
+
+Key words: Bronchopulmonary Dysplasia; adaptive immunity, T cells, 
+ 
+Background
+
+Bronchopulmonary dysplasia (BPD), also known as Chronic Lung Disease, is one of the most common complications of preterm birth, affecting up to 30% of preterm infants born before 32 weeks post-menstrual age (PMA).(Neonatal Data Analysis Unit (NDAU). Neonatal Health Intelligence Tool. 2021. Available: Https://Www.Imperial.Ac.Uk/Neonatal-Data-Analysis-Unit/Neonatal-Data-Analysis-Unit/Neonatal-Data-Visualisations/, n.d.),(Isayama et al., 2017; Jensen et al., 2019) Antenatal and postnatal factors disrupt the developing lung leading to decreased alveolarisation, larger alveoli, irregular pulmonary vessels, and fibrotic tissue.(Gilfillan et al., 2021; Thébaud et al., 2019) The effects of BPD are life-long; individuals with BPD are more likely to require rehospitalisation during their childhood, to have limited lung function and to display delayed neurodevelopment, compared to those born preterm without BPD.(Dassios & Greenough, 2021; Greenough, 2000, 2006; Sun et al., 2023)
+
+Understanding the molecular mechanisms that contribute to BPD could aid in risk prediction, targeted therapies, and understanding disease mechanisms. The heterogeneity of the disease has hampered efforts to identify reliable, consistent biomarkers. So far, though some candidates have been identified (e.g. SPOCK2, CRP) no gene has been significantly associated with the development of BPD via Genome Wide Association Studies (GWAS) or exome sequencing.(Ambalavanan et al., 2015; Hadchouel et al., 2011; Mahlman et al., 2017; Torgerson et al., 2018; H. Wang et al., 2013) This is alongside evidence from twin studies pointing to a possible heritable component in BPD.(Bhandari et al., 2006; Lavoie et al., 2008) Transcriptomic data has been used to identify four endotypes of BPD, distinguished by T helper cell and T cell signalling.(Moreira et al., 2023)  Together these, and other studies, reflect an ongoing effort to incorporate insights from genome-scale research, complementing the longstanding emphasis on clinical studies in the field.  Integrating results from heterogenous sources can allow for novel insights.
+
+Comparative transcriptomic analyses across species can provide valuable insights into common mechanisms while also highlighting potential species-specific responses. Rodent models, particularly murine models, have been widely employed to study the pathophysiology of BPD. Anatomical and physiological differences have prevented in-depth research of ventilator induced lung injury in this model and research has concentrated primarily on hyperoxia-induced lung injury, mimicking the impaired alveolar development and inflammation observed in preterm infants.(Hurskainen et al., 2021) 
+
+We conducted two concurrent systematic reviews of the BPD literature, focusing on genome-scale studies in humans and rodents. Results were extracted from identified studies, where possible, and analysed using Meta Analysis by Information Content (MAIC) algorithm. MAIC is a previously described algorithm that uses data-driven gene list weightings to produce a comprehensive ranked list of genes associated with the trait of interest.(Millar et al., 2024; Parkinson et al., 2020; The GenOMICC Investigators et al., 2021; B. Wang et al., 2022)
+
+Our findings demonstrate that BPD is a complex disease which involves dysregulation in adaptive immune signalling, and extracellular matrix organisation. Of note, T cell-associated genes feature prominently, suggesting with recent studies, that adaptive immunity may play a larger role in BPD pathogenesis and potentially ventilator associated lung injury, than previously appreciated. 
+Results
+
+Systematic review 
+
+We conducted a systematic review of studies that reported associations between genes, transcripts, or proteins, and the development of BPD in humans or the study of BPD in animal models. We did not limit the search to any specific definition of BPD in humans or animal models. Our search yielded 4450 unique citations that were evaluated for inclusion [Supplementary Figures 1 and 2]. For full text evaluation we retrieved 76 articles for human studies and 118 for animal studies, without overlap. Although large animal models are used to explore BPD,(Eiby et al., 2013) we found none that met our inclusion criteria (Supplementary Tables 1 and 2). 
+[references for Table 1(Ahmed et al., 2023; Ambalavanan et al., 2015; Bhattacharya et al., 2012, 2020)]
+Meta-Analysis by Information Content of human studies
+From the 81 human studies, 21 met our eligibility criteria[Supplementary Figure 1, Table 1]. This yielded 31 gene lists, 23 ranked and 8 unranked, employing 5 experimental techniques  (Supplementary Table 3,) and representing 4358 infants (cases = 2247, controls = 2111).  While the definition of BPD varied between studies, over two-thirds of studies, (71.4%, 15/21), used receipt of respiratory support at 36 weeks PMA.(Jensen et al., 2019) All but a single study used primary tissue or samples. MAIC collated and ranked 8017 unique genes across the datasets [Supplmentary Table 4, Figure1A], and only a single gene was supported by evidence from all 5 experimental techniques (RASGRP3, rank = 1). Few genes (n = 53 genes, 0.6%) were supported by >=3 methods while 745 genes (9.74%) were supported by more than 1 method. We prioritised 945 genes for further investigation [Figure 1B], as previously described.(Millar et al., 2024)
+
+Over representation and enrichment analyses
+We first performed Over Representation Analysis (ORA), on the prioritised list of 945 genes. The ORA results from the Gene Ontology database (encompassing all ontologies)  were grouped first based on semantic similarity and then based on function [Figure 1C].  Our analysis reveals a significant over-representation of adaptive immune system processes, with a prominent emphasis on T cell differentiation and regulation, as well as cell-cell adhesion. This is further supported by ORA using the KEGG and Reactome databases [Supplementary Figures]. T cell development was further highlighted when we carried out gene set enrichment analysis (GSEA) of the human BPD MAIC dataset [Figure 1D].
+We then created a protein-protein interaction (PPI) network using the prioritised set of genes. MCL clustering identified 17 clusters with >=5 members. The 7 largest clusters contained >=10 members [Supplementary Figures]. [Functions of these clusters] Using the PPI network, we identified 32 hub genes, suggested as being central to the wider network [Figure 1E] using previously described methods.(Millar et al., 2024)  [Function of hub genes]
+
+ARDS dataset
+Acute lung injury caused or worsened by mechanical ventilation during treatment is a feature of BPD in neonates and Acute Respiratory Distress Syndrome (ARDS) in adults (paediatric ARDS in children). We sought to understand firstly, the different deleterious effects mechanical ventilation may have on the developed versus the developing lung, and to understand the common factors that may underlie both syndromes. To examine this, we evaluated this BPD MAIC analysis against our previously generated ARDS MAIC analysis.(Millar et al., 2024) 
+
+Over Representation Analysis focusing on the prioritised genes from both datasets highlighted shared pathology relating to adaptive immunity with pathways associated with positive regulation of T cell activation [Figure2A]. While NF-kappa signal transduction is associated with ARDS, it does not have a footprint in our BPD data, indicating a divergence in pathologies. We then sought the overlap between both datasets, to find the genes most likely to be associated with both syndromes from the literature. There were 112 genes that overlapped in the prioritised sets from both datasets, [Figure2B] and this overlap was found to be significant using a hypergeometric test using the protein-coding genome as the background set (p<0.005). Over representation analysis found leukocyte mediated immunity, lymphocyte mediated immunity and positive regulation of both T cells and type II interferon were highlighted [Figure2C]. A PPI network focused on the overlap between datasets identifies a hub consisting of 5 genes (CD4, CXCL8, MMP9, CD40 and CD2) [Figure 2D]. 
+
+Meta-Analysis by Information Content of rodent studies
+From 20 eligible rodent BPD studies [Supplementary Figure 2, Table 2] we extracted 35 gene lists for MAIC analysis (28 ranked and 7 unranked), employing 5 experimental techniques (Supplementary Table 3). Of these studies, 13 used mice models and 7 used rat models. The study therefore reflects primarily a rodent dataset rather than the broader non‑human mammalian dataset originally intended. The majority (17/20; 85%) of studies modelled BPD by exposing neonatal pups to a hyperoxic environment, though the approaches differed; there was variation in the timeframe of hyperoxia (from 3 days to 14 days), recovery in room air (0 days to 57 days), continuous versus intermittent hyperoxia, and the percent oxygen (70 – 100%) used across the studies. Other methods to model BPD in rodent models included lipopolysaccharide (LPS) treatment (1 study) and induced IUGR through maternal diet (1 study). All but one included study used lung tissue for analyses. MAIC collated 7637 genes across all datasets [Figure 3A, Supplementary table 5] and 3 genes were supported by evidence from >=4 experimental techniques (RAC2, CXCR2, IL1R2). One in five genes were supported by more than 1 method (n = 1597, 20.91%), with 141 genes (1.85%) supported by >=3 methods. We prioritised 1783 genes for further investigation [Figure 3B].
+
+Rodent functional enrichment
+Gene ontology ORA revealed a significant overrepresentation of pathways related to myeloid cells and development of muscle tissue and extracellular matrix organisation[Figure 3C]. Regulation of T cell activation is also observed though is far less prominent than seen in the human results. As before, we created a protein-protein interaction (PPI) network. MCL clustering identified 44 clusters with >=5 members. The 21 largest clusters contained >=10 members. Among these, we found programs associated with the adaptive immune response and mitosis. We used the PPI network to identify 13 hub genes, suggested as being central to the wider network [Figure 3D].
+
+Comparison of human and rodent datasets
+Ontology ORA showed that while the adaptive immune signal observed in humans above was seen in the rodent dataset, the rodent dataset also highlights the role of the extracellular matrix and wound healing [Figure 4A]. The gross overlap between the two parallel MAIC analyses carried out in this study was not shown to be significant by hypergeometric test (p>0.5). However, focusing on the prioritised genes from both datasets, a hypergeometric test, assuming that 99% of human protein coding genes can be mapped to the mouse genome, indicated the overlap of 112 genes [Figure 4B] was significant [Supplementary Table 6]. It is difficult to determine if some uncommon enriched pathways reflect rodent-specific responses to experimental injury rather than universally conserved disease mechanisms.
+
+ 
+Discussion
+The clinical and biological heterogeneity of BPD presents challenges for identifying the molecular processes that drive progression of the disease. To address this, we applied a validated in silico approach to systematically integrate and prioritise existing genome-scale BPD datasets from both human and rodent studies.  We further compared our results to previously generated similar output for ARDS generated within our lab. 
+
+T cells in neonates
+Our findings prioritise specific elements of the adaptive immune response In particular T cell development and adhesion. Interestingly, [subgroup based on T cells]. But does this relect sugroups of phenotype (https://doi.org/10.1164/rccm.201907-1342OC )
+
+T cells in BPD – long term effects?
+Altered populations of T cells in adults following BPD, 
+
+This study is based on the published literature and is intended to capture the current state of genome-wide BPD research; as such, it is subject to the limitations. Firstly, 
+Secondly, blood is among the least invasive and most practical biological samples to collect in the NICU setting. Over half of the gene lists from human studies were derived from primary blood samples (11/21, 52.4%). Consequently, our human results are likely indicative of circulating biomarkers and may not entirely reflect the extent of tissue injury at its origin. Conversely, blood samples are not commonly taken in rodent studies of BPD, where whole lung tissue is preferred. This may have contributed to the different gene signatures observed between the two analyses. 
+Finally, due to key developmental differences - such as timing of alveolarisation and immune system maturation – the results may not be directly comparable between species. 
+
+In conclusion, ... 
 
 
-## Introduction
-### Background
+ 
+Methods
 
-Bronchopulmonary dysplasia (BPD), also known as Chronic Lung Disease, is one of the most common complications of preterm birth, affecting up to 30% of preterm infants born before 32 weeks post-menstrual age (PMA).1,2,3 Antenatal and postnatal factors disrupt the developing lung leading to decreased alveolarisation, larger alveoli, irregular pulmonary vessels, and fibrotic tissue.4,5 The effects of BPD are life-long; individuals with BPD are more likely to require rehospitalisation during their childhood, to have limited lung function and to display delayed neurodevelopment, compared to those born preterm without BPD.6–9
+Systematic review
+The systematic review and meta-analysis protocol was registered with the International Prospective Register of Systematic Reviews (PROSPERO; CRD42022306270, CRD42024550229). The review is reported in compliance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines.(Page et al., 2021)
 
-Understanding the molecular mechanisms that contribute to BPD could aid in risk prediction, targeted therapies, and understanding disease mechanisms. The heterogeneity of the disease has hampered efforts to identify reliable, consistent biomarkers. So far, though some candidates have been identified (e.g. SPOCK2, CRP) no gene has been significantly associated with the development of BPD via Genome Wide Association Studies (GWAS) or exome sequencing.10–14 This is despite indications from twin studies of the heritability of BPD.15,16 Transcriptomic data has been used to identify four endotypes of BPD, distinguished by T helper cell and T cell signalling.17  Together these, and other studies, reflect an effort to incorporate insights from genome-scale research, complementing the longstanding emphasis on clinical studies in the field.
+Search strategy and selection criteria
+A detailed description of our search strategy and eligibility criteria is provided in the Supplementary Methods. Briefly, we searched MEDLINE, Embase without language restrictions on 24/05/2024. We included human genome-wide studies reporting associations between genes, transcripts, or proteins. For human studies we accepted any contemporaneous BPD definition. For rodent studies, definitions of BPD study groups were accepted as hyperoxic exposure and induced low birth weight. We excluded candidate in vivo or in vitro studies (< 50 genes/proteins), candidate gene associations, and studies with <5 patients per arm. Following deduplication, titles were initially screened using Screenatron.(Clark et al., 2020) 
 
-Animal models, particularly murine moodels, have been used extensively to investgiate the pathophysiology of BPD. The majority of this work has focussed on hyperoxia-induced lung injury, aiming to replicate the disrupted alveolarisation and inflammation seen in pre-term infants. Comparative transcriptomic analysis between species has the potential to help distinguish universal disease mechanisms from species specific responses. However, due to developmental differences in human and rodent lungs, these pathways may not be directly comparable. Rodents are born at an earlier stage of lung development than humans and are prepared for gas exchange in a hyperoxic environment, human lungs at a similar stage are not [16492978]. Hyperoxia, even in normal air, is known to affect the transcriptomic landscape of the developing lung [33692365]. 
+Abstracts were then screened against eligibility criteria, this included organising the studies into separate collections of human and animal studies, with an independent author resolving inconsistencies. Full texts were retrieved and analysed for inclusion before extraction of gene lists for inclusion in MAIC. Input lists were processed as previously described.(Li et al., 2020; Millar et al., 2024; Parkinson et al., 2020) Briefly, lists were considered ranked if metrics of statistical significance (p-value) and/or fold change (FC) were reported. These lists were ordered by p-value/false discovery rate (low to high) then, where applicable, by absolute fold change or effect size (high to low). Gene names were converted to HGNC gene symbols (or Ensembl/Refseq symbols if no HGNC symbol). Rodent data was mapped to human ortholog symbols using custom scripts to allow for comparison with the human MAIC results.
 
-Integrating results from heterogenous sources can allow for novel insights. We conducted a systematic review of the BPD literature, focusing on genome-scale studies in humans and rodents. Results were extracted from identified studies, where possible, and analysed using MAIC. MAIC is a previously described algorithm that uses data-driven gene list weightings to produce a comprehensive ranked list of genes associated with the trait of interest.18–20
+MAIC
+The MAIC algorithm has previously been described in detail.(Li et al., 2020; Millar et al., 2024; Parkinson et al., 2020; The GenOMICC Investigators et al., 2021; B. Wang et al., 2022) A full description and the source code is available at https://baillielab.net/maic. We implemented pymaic v0.2 in Python v3.9 and used Technique to categorise input lists. MAIC combines both ranked and unranked lists, of unknown quality, to build a comprehensive ranked list of entities according to 4 basic assumptions.1. There is a set of true positives (genes implicated in BPD), 2.  A gene is more likely to be a true positive if it appears in datasets from more than one source, 3. A gene is more likely to be a true positive if it appears in datasets with a higher proportion of replicated genes. 4. A gene is more likely to be a true positive if it appears in datasets from multiple methods or modalities. 
 
-Our findings demonstrate that BPD is a complex disease which involves dysregulation in immune signaling, vascular development and extracellular matrix organisation. Of note, several of our analyses highlighted the involvement of T cell-associated genes, suggesting that adaptive immunity may play a larger role in BPD pathogenesis than previously appreciated.
+Functional analyses
+All enrichment and over representation analyses were implemented using clusterProfiler (v4.0)(Wu et al., 2021) in R (v4.4.0). Hypergeometric tests were implemented with the 1-phyper function in R. Prioritised genes were analysed using the online tool STRING (https:// string-db.org). A PPI network was constructed using the MCL (Markov Clustering) algorithm, with an inflation parameter of 3. The network was exported and hub genes subsequently identified using CytoHubba 0.1 implemented in CytoScape 3.10.3. The overlap of the top 100 ranked genes, ranked using five common algorithms (MCC, MNC, Degree, EPC and DMNC), was used to evaluate hub genes.
+
+
 
  
-## Results
+References
 
-### Systematic review and meta-analysis by information content
-We conducted a systematic review of studies that reported associations between genes, transcripts, or proteins, and the development of BPD in humans or the study of BPD in animal models. We did not limit the search to any specific definition of BPD in humans or animal models. Our search yielded 4450 unique citations that were evaluated for inclusion [Supplementary Figures 1 and 2]. For full text evaluation we retrieved 76 articles for human studies and 118 for animal studies. There was no overlap. Although large animal models are occasionally used to explore BPD,2122 we found none that met our inclusion criteria which are outlined in Supplementary Table 1 and 2. 
+Ahmed, S., Odumade, O. A., van Zalm, P., Fatou, B., Hansen, R., Martin, C. R., Angelidou, A., & Steen, H. (2023). Proteomics-Based Mapping of Bronchopulmonary Dysplasia-Associated Changes in Noninvasively Accessible Oral Secretions. The Journal of Pediatrics, 270. Ovid MEDLINE(R) Epub Ahead of Print. https://doi.org/10.1016/j.jpeds.2023.113774
+Ambalavanan, N., Cotten, C. M., Page, G. P., Carlo, W. A., Murray, J. C., Bhattacharya, S., Mariani, T. J., Cuna, A. C., Faye-Petersen, O. M., Kelly, D., & Higgins, R. D. (2015). Integrated Genomic Analyses in Bronchopulmonary Dysplasia. The Journal of Pediatrics, 166(3), 531-537.e13. https://doi.org/10.1016/j.jpeds.2014.09.052
+Bhandari, V., Bizzarro, M. J., Shetty, A., Zhong, X., Page, G. P., Zhang, H., Ment, L. R., Gruen, J. R., & for the Neonatal Genetics Study Group. (2006). Familial and Genetic Susceptibility to Major Neonatal Morbidities in Preterm Twins. Pediatrics, 117(6), 1901–1906. https://doi.org/10.1542/peds.2005-1414
+Bhattacharya, S., Go, D., Krenitsky, D. L., Huyck, H. L., Solleti, S. K., Lunger, V. A., Metlay, L., Srisuma, S., Wert, S. E., Mariani, T. J., & Pryhuber, G. S. (2012). Genome-wide transcriptional profiling reveals connective tissue mast cell accumulation in bronchopulmonary dysplasia. American Journal of Respiratory and Critical Care Medicine, 186(4). Ovid MEDLINE(R) <2012>. https://doi.org/10.1164/rccm.201203-0406OC
+Bhattacharya, S., Mereness, J. A., Baran, A. M., Misra, R. S., Peterson, D. R., Ryan, R. M., Reynolds, A. M., Pryhuber, G. S., & Mariani, T. J. (2020). Lymphocyte-Specific Biomarkers Associated With Preterm Birth and Bronchopulmonary Dysplasia. Frontiers in Immunology, 11. Ovid MEDLINE(R) <2020>. https://doi.org/10.3389/fimmu.2020.563473
+Clark, J., Glasziou, P., Del Mar, C., Bannach-Brown, A., Stehlik, P., & Scott, A. M. (2020). A full systematic review was completed in 2 weeks using automation tools: A case study. Journal of Clinical Epidemiology, 121, 81–90. https://doi.org/10.1016/j.jclinepi.2020.01.008
+Dassios, T., & Greenough, A. (2021). Long-term sequelae of bronchopulmonary dysplasia. In I. P. Sinha, J. M. Bhatt, A. Cleator, & H. Wallace (Eds.), Respiratory Diseases of the Newborn Infant (pp. 68–78). European Respiratory Society. https://doi.org/10.1183/2312508X.10013720
+Eiby, Y. A., Wright, L. L., Kalanjati, V. P., Miller, S. M., Bjorkman, S. T., Keates, H. L., Lumbers, E. R., Colditz, P. B., & Lingwood, B. E. (2013). A Pig Model of the Preterm Neonate: Anthropometric and Physiological Characteristics. PLoS ONE, 8(7), e68763. https://doi.org/10.1371/journal.pone.0068763
+Gilfillan, M., Bhandari, A., & Bhandari, V. (2021). Diagnosis and management of bronchopulmonary dysplasia. BMJ, n1974. https://doi.org/10.1136/bmj.n1974
+Greenough, A. (2000). Measuring respiratory outcome. Seminars in Neonatology, 5(2), 119–126. https://doi.org/10.1053/siny.1999.0006
+Greenough, A. (2006). Bronchopulmonary dysplasia – Long term follow up. Paediatric Respiratory Reviews, 7, S189–S191. https://doi.org/10.1016/j.prrv.2006.04.206
+Hadchouel, A., Durrmeyer, X., Bouzigon, E., Incitti, R., Huusko, J., Jarreau, P.-H., Lenclen, R., Demenais, F., Franco-Montoya, M.-L., Layouni, I., Patkai, J., Bourbon, J., Hallman, M., Danan, C., & Delacourt, C. (2011). Identification of SPOCK2 As a Susceptibility Gene for Bronchopulmonary Dysplasia. American Journal of Respiratory and Critical Care Medicine, 184(10), 1164–1170. https://doi.org/10.1164/rccm.201103-0548OC
+Hurskainen, M., Mizikova, I., Cook, D. P., Andersson, N., Cyr-Depauw, C., Lesage, F., Helle, E., Renesme, L., Jankov, R. P., Heikinheimo, M., Vanderhyden, B. C., & Thebaud, B. (2021). Single cell transcriptomic analysis of murine lung development on hyperoxia-induced damage. Nature Communications, 12(1). Ovid MEDLINE(R) <2021>. https://doi.org/10.1038/s41467-021-21865-2
+Isayama, T., Lee, S. K., Yang, J., Lee, D., Daspal, S., Dunn, M., Shah, P. S., & for the Canadian Neonatal Network and Canadian Neonatal Follow-Up Network Investigators. (2017). Revisiting the Definition of Bronchopulmonary Dysplasia: Effect of Changing Panoply of Respiratory Support for Preterm Neonates. JAMA Pediatrics, 171(3), 271. https://doi.org/10.1001/jamapediatrics.2016.4141
+Jensen, E. A., Dysart, K., Gantz, M. G., McDonald, S., Bamat, N. A., Keszler, M., Kirpalani, H., Laughon, M. M., Poindexter, B. B., Duncan, A. F., Yoder, B. A., Eichenwald, E. C., & DeMauro, S. B. (2019). The Diagnosis of Bronchopulmonary Dysplasia in Very Preterm Infants. An Evidence-based Approach. American Journal of Respiratory and Critical Care Medicine, 200(6), 751–759. https://doi.org/10.1164/rccm.201812-2348OC
+Lavoie, P. M., Pham, C., & Jang, K. L. (2008). Heritability of Bronchopulmonary Dysplasia, Defined According to the Consensus Statement of the National Institutes of Health. Pediatrics, 122(3), 479–485. https://doi.org/10.1542/peds.2007-2313
+Li, B., Clohisey, S. M., Chia, B. S., Wang, B., Cui, A., Eisenhaure, T., Schweitzer, L. D., Hoover, P., Parkinson, N. J., Nachshon, A., Smith, N., Regan, T., Farr, D., Gutmann, M. U., Bukhari, S. I., Law, A., Sangesland, M., Gat-Viks, I., Digard, P., … Hacohen, N. (2020). Genome-wide CRISPR screen identifies host dependency factors for influenza A virus infection. Nature Communications, 11(1), 164. https://doi.org/10.1038/s41467-019-13965-x
+Mahlman, M., Karjalainen, M. K., Huusko, J. M., Andersson, S., Kari, M. A., Tammela, O. K. T., Sankilampi, U., Lehtonen, L., Marttila, R. H., Bassler, D., Poets, C. F., Lacaze-Masmonteil, T., Danan, C., Delacourt, C., Palotie, A., Muglia, L. J., Lavoie, P. M., Hadchouel, A., Rämet, M., & Hallman, M. (2017). Genome-wide association study of bronchopulmonary dysplasia: A potential role for variants near the CRP gene. Scientific Reports, 7(1), 9271. https://doi.org/10.1038/s41598-017-08977-w
+Millar, J. E., Clohisey-Hendry, S., McMannus, M., Zechner, M., Wang, B., Parkinson, N., Jungnickel, M., Zaki, N. M., Pairo-Castineira, E., Rawlik, K., Rogers, J., Russell, C. D., Bos, L. D., Meyer, N. J., Calfee, C., McAuley, D. F., Shankar-Hari, M., & Baillie, J. K. (2024). The genomic landscape of Acute Respiratory Distress Syndrome: A meta-analysis by information content of genome-wide studies of the host response. https://doi.org/10.1101/2024.02.13.24301089
+Moreira, A. G., Arora, T., Arya, S., Winter, C., Valadie, C. T., & Kwinta, P. (2023). Leveraging transcriptomics to develop bronchopulmonary dysplasia endotypes: A concept paper. Respiratory Research, 24(1). Ovid MEDLINE(R) <2023 to 2024>. https://doi.org/10.1186/s12931-023-02596-y
+Neonatal Data Analysis Unit (NDAU). Neonatal Health Intelligence Tool. 2021. Available: Https://www.imperial.ac.uk/neonatal-data-analysis-unit/neonatal-data-analysis-unit/neonatal-data-visualisations/. (n.d.).
+Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., Shamseer, L., Tetzlaff, J. M., Akl, E. A., Brennan, S. E., Chou, R., Glanville, J., Grimshaw, J. M., Hróbjartsson, A., Lalu, M. M., Li, T., Loder, E. W., Mayo-Wilson, E., McDonald, S., … Moher, D. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. BMJ, n71. https://doi.org/10.1136/bmj.n71
+Parkinson, N., Rodgers, N., Head Fourman, M., Wang, B., Zechner, M., Swets, M. C., Millar, J. E., Law, A., Russell, C. D., Baillie, J. K., & Clohisey, S. (2020). Dynamic data-driven meta-analysis for prioritisation of host genes implicated in COVID-19. Scientific Reports, 10(1), 22303. https://doi.org/10.1038/s41598-020-79033-3
+Rozance, P. J., Seedorf, G. J., Brown, A., Roe, G., O’Meara, M. C., Gien, J., Tang, J.-R., & Abman, S. H. (2011). Intrauterine growth restriction decreases pulmonary alveolar and vessel growth and causes pulmonary artery endothelial cell dysfunction in vitro in fetal sheep. American Journal of Physiology-Lung Cellular and Molecular Physiology, 301(6), L860–L871. https://doi.org/10.1152/ajplung.00197.2011
+Sun, T., Yu, H.-Y., Yang, M., Song, Y.-F., & Fu, J.-H. (2023). Risk of asthma in preterm infants with bronchopulmonary dysplasia: A systematic review and meta-analysis. World Journal of Pediatrics, 19(6), 549–556. https://doi.org/10.1007/s12519-023-00701-1
+The GenOMICC Investigators, The ISARIC4C Investigators, The COVID-19 Human Genetics Initiative, 23andMe Investigators, BRACOVID Investigators, Gen-COVID Investigators, Pairo-Castineira, E., Clohisey, S., Klaric, L., Bretherick, A. D., Rawlik, K., Pasko, D., Walker, S., Parkinson, N., Fourman, M. H., Russell, C. D., Furniss, J., Richmond, A., Gountouna, E., … Baillie, J. K. (2021). Genetic mechanisms of critical illness in COVID-19. Nature, 591(7848), 92–98. https://doi.org/10.1038/s41586-020-03065-y
+Thébaud, B., Goss, K. N., Laughon, M., Whitsett, J. A., Abman, S. H., Steinhorn, R. H., Aschner, J. L., Davis, P. G., McGrath-Morrow, S. A., Soll, R. F., & Jobe, A. H. (2019). Bronchopulmonary dysplasia. Nature Reviews Disease Primers, 5(1), 78. https://doi.org/10.1038/s41572-019-0127-7
+Torgerson, D. G., Ballard, P. L., Keller, R. L., Oh, S. S., Huntsman, S., Hu, D., Eng, C., Burchard, E. G., Ballard, R. A., & TOLSURF Study Group. (2018). Ancestry and genetic associations with bronchopulmonary dysplasia in preterm infants. American Journal of Physiology-Lung Cellular and Molecular Physiology, 315(5), L858–L869. https://doi.org/10.1152/ajplung.00073.2018
+Wang, B., Law, A., Regan, T., Parkinson, N., Cole, J., Russell, C. D., Dockrell, D. H., Gutmann, M. U., & Baillie, J. K. (2022). Systematic comparison of ranking aggregation methods for gene lists in experimental results. Bioinformatics, 38(21), 4927–4933. https://doi.org/10.1093/bioinformatics/btac621
+Wang, H., St. Julien, K. R., Stevenson, D. K., Hoffmann, T. J., Witte, J. S., Lazzeroni, L. C., Krasnow, M. A., Quaintance, C. C., Oehlert, J. W., Jelliffe-Pawlowski, L. L., Gould, J. B., Shaw, G. M., & O’Brodovich, H. M. (2013). A Genome-Wide Association Study (GWAS) for Bronchopulmonary Dysplasia. Pediatrics, 132(2), 290–297. https://doi.org/10.1542/peds.2013-0533
+Wu, T., Hu, E., Xu, S., Chen, M., Guo, P., Dai, Z., Feng, T., Zhou, L., Tang, W., Zhan, L., Fu, X., Liu, S., Bo, X., & Yu, G. (2021). clusterProfiler 4.0: A universal enrichment tool for interpreting omics data. The Innovation, 2(3), 100141. https://doi.org/10.1016/j.xinn.2021.100141
 
-From the 81 human studies, 21 met our eligibility criteria. This yielded 31 gene lists, 23 ranked and 8 unranked, employing 5 experimental techniques (Mass spectrometry, GWAS, microarray, exomeSeq, RNAseq) [Supplementary Table 3] and representing 4358 infants (cases = 2247, controls = 2111).  All but a single study used primary tissue. While the definition of BPD varied between studies, over two-thirds of studies, (71.4%, 15/21), used receipt of respiratory support at 36 weeks PMA.3 Of 8017 unique genes collated across the datasets, only a single gene was supported by evidence from all 5 experimental techniques (RASGRP3, rank = 1). Few genes were supported by more than 1 method (n = 745, 9.74%), with 53 genes (0.6%) supported by >=3 methods. We prioritised 945 genes for further investigation, as previously described [Figure 1A].23
+ 
+CONFLICT OF INTEREST
+All authors report no conflicts of interest.
 
-<!--We did not include miRNA lists.-->
+FUNDING
+<INSERT>
 
-### Tissue and Cell-Specific Expression
+DATA AVAILABILITY
+The MAIC output is included as supplementary material. All code is available at https://github.com/baillielab/bpd_maic.
 
-
-### Functional Enrichment 
-Functional enrichment analyses focused on the prioritised list of 945 genes. First, we performed over representation analysis. Genes associated with immunity, in particular T cell immunity, are over-represented. Reactome showed over representation of genes associated with the activity of ZAP-70 in T cell polarization and proliferation [PMID:12387734, 32948597, 15059847], though ZAP70 appears in the overall list of genes, it is not highly ranked by MAIC (3982) and is supported by a single study [yuon chou]. 
-
-Next, we created a protein-protein interaction network. MCL clustering identified 32 clusters with >=5 members. Each of the 10 largest clusters contained >=10 members. Among these, we found programs associated with adaptive immunity, the SWI/SNF complex and post-translational protein phosphorylation. 
-
-### Overlap with ARDS
-We were interested in the similarities between ARDS in adults and BPD in neonates. both of which are severe pulmonary conditions characterized by inflammation, tissue damage and impaired lung function. The ARDS MAIC ranked 7085 genes, with 1308 of these prioritised with the same methodology.[Millar] We found that 112 genes were shared between the two prioritised datasets. Functional enrichment of analyses demonstrated that genes associated with T cell activity were enriched in this overlap. The overlap found suggests that there are shared pathways and mechanisms involved in both conditions, likely due to the shared nature of their inflammatory processes, extracellular matrix remodeling and immune responses in lung injury. This finding may have implications for the development of targeted therapies that are more appropriate for the age-specific pathogenesis of each condition. 
-
-[TCELL RESPONSE?]
-
-### Rodent - broad - systematic review info
-20 rodent BPD studies yielded 35 gene lists for analysis using MAIC (27 ranked and 8 unranked), employing 5 experimental techniques (GWAS, microarray, DNA methylation, RNAseq, scRNAseq) [FIGURE]. Of the 20 studies, 12 used mice models and 8 used rat models. The majority (16/20 80%) of these studies modeled BPD by exposing neonatal pups to hyperoxic environments. There was variation in the timeframe of hyperoxia and recovery and also the percent oxygen used for hyperoxia across the studies. Other methods to model BPD in rodent models included lipopolysaccharide (LPS) treatment (2 studies) and induced IUGR (2 studies). All but one included study used lung tissue for analyses. Of 6764 genes implicated across all datasets 3 genes were supported by evidence from all >=4 experimental techniques (RAC2, CXCR2, IL1R2). Few genes were supported by more than 1 method (n = 1209, 17.87%), with 94 genes (1.4%) supported by >=3 methods. We prioritised 1369 genes for further investigation.
-
-### Rodent - specific - MAIC analysis
-<!-- Specific results worth highlighting -->
-Our analysis prioritised 1783 genes for functional enrichment using the unit invariant knee method. These genes progressed to over representation analysis using KEGG, Reactome and GO Biological Processes. From this, key themes emerged, supporting evidence that BPD involves chronic inflammation, disrupted lung development and immune response. 
-
-### Rodent - specific - Functional Enrichment
-KEGG: Enriched terms supported evidence of dysregulated growth and development pathways including  ‘pathways in cancer’ and ‘transcriptional misregulation in cancer’. Alongside this, the ‘AGE-RAGE signalling pathway’ is associated with inflammation and oxidative stress – relating to hyperoxia induced injury in BPD. Enrichment of ‘complement and coagulation cascades’ points towards innate immune activity and potential vascular involvement. ‘Chemokine signalling’ and ‘TNF signalling’ emphasise the role of inflammatory processes.
-
-Reactome: ‘Extracellular matrix (ECM) organisation’ alongside ‘collagen formation’ and ‘assembly of collagen fibrils’ highlights structural remodelling in BPD, reflecting fibrosis and impaired alveolarisation. ‘Elastic fibre formation’ may contribute to long-term respiratory dysfunction. Enrichment with reactome reinforced a strong inflammatory component observed in BPD (‘immune system’ and ‘innate immune system’). ‘Haemostasis’ and ‘platelet activation, signalling and aggregation’ indicate endothelial injury and pro-thrombotic processes within the lung vasculature. This, as well as ‘cell surface interactions at the vascular wall’ support evidence of vascular remodelling as a key factor in BPD pathophysiology. 
-
-GOBP: Neutrophil-related processes were predominantly enriched, including: ‘neutrophil-mediated immunity’, ‘Neutrophil activation involved in immune response’, and ‘neutrophil degranulation’. These terms highlight the role of innate immune cells and their inflammatory effects in BPD pathogenesis. Supporting results from the Reactome enrichment, ‘extracellular matrix organisation’ was significantly enriched, a hallmark of lung injury and fibrosis. Cytokine-related signalling was also enriched, particularly ‘cellular response to cytokine stimulus’ and ‘cytokine-mediated signalling pathway’. Apoptotic processes appeared both positively and negatively regulated, inferring complicated regulation of cell death during lung injury and repair. 
-
-### Overlap between Human and Rodent BPD 
-We analysed the overlap between the Human and rodent BPD MAIC results. Of the 8017 genes from the human results, and 7636 genes from the rodent results: 2747 genes overlapped (17.55%). Using the prioritised lists from both analyses, 945 human and 1783 rodent, there were 163 overlapping genes (5.98%). This relatively limited overlap may reflect species-specific differences in disease mechanisms, limiting the extent to which findings from rodent models can be directly translated to human BPD.
-
-We carried out over-representation analysis of the overlapping prioritised genes using GOBP, KEGG and Reactome to investigate the biological mechanisms that may be conserved between species. Generally, this revealed a consistent signature of immune-related biological processes. (Figure 6)
-
-GOBP: Terms such as ‘neutrophil activation’, ‘neutrophil degranulation’, and ‘neutrophil-mediated immunity’ were significantly enriched, indicating a conserved involvement of neutrophil-driven innate immune responses in BPD pathogenesis across species. In addition, several terms relating to cytokine signalling and immune regulation were enriched, including ‘cytokine-mediated signalling pathway’, ‘cellular response to cytokine stimulus’, and ‘regulation of interleukin-2 biosynthetic process’. These results are in keeping with a shared up-regulation of both pro-inflammatory signalling and adaptive immune processes.
-
-KEGG: Key pathways included ‘haematopoietic cell lineage’, ‘T cell receptor signalling’, and ‘cytokine–cytokine receptor interaction’, further support shared involvement of both innate and adaptive immune responses. Enrichment for ‘primary immunodeficiency genes’ and ‘cell adhesion molecules’ suggests dysregulation of immune development. Pathways such as ‘complement and coagulation cascades’, and those associated with infectious disease responses (Staphylococcus Aureus and Measles), reflect heightened inflammatory signalling.
-
-Reactome: Enriched terms included broad categories such as ‘Immune System’ and ‘Adaptive Immune System’, as well as more specific pathways like ‘Cytokine Signalling in Immune System’ and ‘Signalling by Interleukins’, strengthen evidence of immune-mediated mechanisms. Several T cell-specific pathways were also enriched, including ‘Translocation of ZAP-70 to the Immunological Synapse’, ‘Phosphorylation of CD3 and TCR zeta chains’, and Costimulation by the CD28 family’, reinforcing the role of adaptive immunity. 
-
-These findings suggest that despite broader transcriptomic differences between human and rodent BPD, shared immunological mechanisms can still be identified when examining prioritised genes from both species. In particular, pathways involving neutrophil activation and T cell signalling may represent conserved elements of BPD pathogenesis and potential targets for therapeutic intervention. However, due to key developmental differences - such as timing of alveolarisation and immune system maturation - these results may not be directly comparable. Some enriched pathways may reflect rodent-specific responses to experimental injury rather than universally conserved disease mechanisms. Future research may benefit from prioritising comparisons of convergent biological processes, rather than exact gene matches when investigating BPD across species.
-
-## Discussion
-
-## Methods
-
-Systematic review and meta-analysis protocol was registered with the International Prospective Register of Systematic Reviews (PROSPERO – Human Code + CRD42024550657). 
-
-### Search Strategy and Selection Criteria
-#### Human
-#### Animal
-A detailed description of our search strategy and eligibility criteria is provided in the supplementary materials (Supp. data 1 and Supp. data 2). MEDLINE and Embase were searched on 24/05/2024. We included genome-wide studies reporting associations between genes, transcripts or proteins and BPD in both human and rodent models. For rodent studies, definitions of BPD study groups were accepted as hyperoxic exposure and induced low birth weight. We excluded in-vitro BPD models, and candidate studies (<50 genes/proteins).
-
-#### Study Selection and Data Extraction
-Following deduplication, titles were initially screened using Screenatron (REF). This included organising the studies into separate collections of human and animal studies. Abstracts were then screened against eligibility criteria, with an independent author resolving inconsistencies. Full texts were retrieved and analysed for inclusion before extraction of gene lists for inclusion in MAIC. Each step of this process is displayed in PRISMA diagrams (Supp. Figure 1 and Supp. Figure 2) [33782057]. The human data was standardised according to HGNC symbols or Ensembl/RefSeq equivalents when no HGNC symbol was available. Animal data was mapped to human ortholog symbols to allow for comparison. 
-
-### MAIC
-The MAIC algorithm has previously been described in detail [31919360]. A full description and the source code is available at https://baillielab.net/maic. MAIC combines both ranked and unranked lists, of unknown quality, to build a comprehensive ranked list of entities according to 4 basic assumptions. 
-1.	There is a set of true positives (host genes implicated in BPD) 
-2.	A gene is more likely to be a true positive if it appears in datasets from more than one source
-3.	A gene is more likely to be a true positive if it appears in datasets with a higher proportion of replicated genes
-4.	A gene is more likely to be a true positive if it appears in datasets from multiple methods or modalities.
-
-### Functional Enrichment 
-We performed over represenation analysis with Gprofiler (REF). This utilised 3 data sources: Kyoto Encyclopaedia of Genes and Genomes (KEGG), Reactome, Gene Ontology Biological Processes (REFs). 
-
-### STRING Analysis
+CONTRIBUTIONS
+SCH, JKB and JEM conceived the study. SCH, PK, CH, JAR, NM, AA, NP, EL, MP manually reviewed abstracts for inclusion. SCH, PK, CH and CS curated the data. SCH, PK and CH did the formal analysis. SCH supervised the study. SCH, PK and CH wrote the original draft of the manuscript. All authors reviewed and edited the manuscript. SCH validated the study data. SCH, PK and CH had access to the raw data. The corresponding author had full access to all the data and final responsibility for the decision to submit for publication.
