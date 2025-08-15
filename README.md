@@ -23,9 +23,9 @@ Chinthika?
 
 ## Journals:
 
-1st choice: BMC Respiratory Research
-2nd choice: Pediatric Research
-3rd choice: PLOS One
+ - 1st choice: BMC Respiratory Research
+ - 2nd choice: Pediatric Research
+ - 3rd choice: PLOS One
 
 ## Reviewers:
 
