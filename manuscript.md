@@ -150,6 +150,3 @@ The MAIC output is included as supplementary material. All code is available at 
 
 CONTRIBUTIONS
 SCH, JKB and JEM conceived the study. SCH, PK, CH, JAR, NM, AA, NP, EL, MP manually reviewed abstracts for inclusion. SCH, PK, CH and CS curated the data. SCH, PK and CH did the formal analysis. SCH supervised the study. SCH, PK and CH wrote the original draft of the manuscript. All authors reviewed and edited the manuscript. SCH validated the study data. SCH, PK and CH had access to the raw data. The corresponding author had full access to all the data and final responsibility for the decision to submit for publication.
-
-
-<img width="451" height="376" alt="image" src="https://github.com/user-attachments/assets/420bf2ff-2bda-47f4-a90d-de29d782041b" />
