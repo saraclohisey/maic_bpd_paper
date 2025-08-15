@@ -8,7 +8,7 @@ Can be added as doi or PMID.
 
 ## Author list: 
 
-Analysis: Chris Happs*, Prerna Khanna*, Charlotte Scoynes, Julia Anderson, Nicholas Parkinson, Jonathan Millar, Kenneth Baillie, Sara Clohisey Hendry
+Analysis: Chris Happs*, Prerna Khanna*, Charlotte Scoynes, Nicholas Parkinson, Jonathan Millar, Kenneth Baillie, Sara Clohisey Hendry
 
 *Equal contribution
 
