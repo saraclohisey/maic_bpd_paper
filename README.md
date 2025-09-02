@@ -12,7 +12,7 @@ Analysis: Chris Happs*, Prerna Khanna*, Charlotte Scoynes, Nicholas Parkinson, J
 
 *Equal contribution
 
-Abstracts: Chris Happs, Prerna Khanna, Nelly Muriungi, Akira Alexander, Josh Rogers, Nicholas Parkinson, Elizabeth Lake, Max Pickup, Sara Clohisey Hendry.
+Abstracts: Chris Happs, Prerna Khanna, Nelly Muriungi, Akira Alexander, Josh Rogers, Nicholas Parkinson, Elizabeth Lake, Maximilian Pickup, Sara Clohisey Hendry.
 
 
 ## To Do: 
