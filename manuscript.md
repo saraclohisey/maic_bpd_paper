@@ -88,7 +88,7 @@ This study is based on the published literature and is intended to capture the c
 
 
 Conclusion
-MAIC provided a validated, integrative method to overcome the clinical and molecular heterogeneity of BPD. This approach provided consensus genes across diverse genome scale studies. The human BPD signature is strongly characterised by the disruption of lymphoid cell activity. The highest-ranking human gene, RASGRP3, evidences an underappreciated role for B-cell signalling in BPD pathogenesis. 
+MAIC provided a validated, integrative method to overcome the clinical and molecular heterogeneity of BPD. This approach delivered consensus genes across diverse genome scale studies. The human BPD signature is strongly characterised by the disruption of lymphoid cell activity. The highest-ranking human gene, RASGRP3, evidences an underappreciated role for B-cell signalling in BPD pathogenesis. 
 
 ARDS overlap comment
 
