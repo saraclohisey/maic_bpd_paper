@@ -89,8 +89,12 @@ Despite the difference in their systemic and local pathologies, the significant 
 This study is based on the published literature and is intended to capture the current state of genome-wide BPD research. It is subject to several limitations. Firstly, blood is among the least invasive and most practical biological samples to collect in the NICU setting. As detailed above, this difference in sample source for human and rodent data represents a primary limitation on direct comparability and interpretation of tissue-specific pathology. Secondly, due to experimental methodologies, the rodent models of BPD included in this analysis may not accurately reflect the human disease as a whole but summarise the effects of hypoxia induced during disease. Thirdly, due to key developmental differences - such as timing of alveolarisation and immune system maturation – the results may not be directly comparable between species. It is difficult to determine if some uncommon, enriched pathways reflect rodent-specific responses to experimental injury rather than universally conserved disease mechanisms. Finally, MAIC does not accommodate direction of effect. 
 
 
-In conclusion, ... 
+Conclusion
+MAIC provided a validated, integrative method to overcome the clinical and molecular heterogeneity of BPD. This approach provided consensus genes across diverse genome scale studies. The human BPD signature is strongly characterised by the disruption of lymphoid cell activity. The highest-ranking human gene, RASGRP3, evidences an underappreciated role for B-cell signalling in BPD pathogenesis. 
 
+ARDS overlap comment
+
+The rodent data emphasises ECM remodelling and the acute, innate immune response; conversely, the human results point towards a protracted, lymphoid cell driven disease. The convergence on IL1R2 in both human and rodent analyses represents a significant discovery and a core, conserved mechanism with translational potential. Future therapeutic strategies should focus on the lymphoid cell driven pathways identified in the human data, as these are likely essential to preventing the long-term progression of BPD, and may be underrepresented in current animal models. The integrated findings from this study provide a ranked, actionable list of molecular targets for risk prediction and the development of targeted immunomodulatory therapies for BPD. 
 
  
 Methods
