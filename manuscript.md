@@ -34,7 +34,7 @@ Comparative transcriptomic analyses across species can provide valuable insights
 
 Integrating results from heterogenous sources can allow for novel insights. In this study we incorporate insights from genome-scale research to complement the longstanding emphasis on clinical studies in the field.  We conducted two concurrent systematic reviews of the BPD literature, focusing on genome-scale studies in humans and rodents. Results were extracted from identified studies, where possible, and analysed using Meta Analysis by Information Content (MAIC) algorithm. MAIC is a previously described algorithm that uses data-driven gene list weightings to produce a comprehensive ranked list of genes associated with the trait of interest (Millar et al., 2024; Parkinson et al., 2020; The GenOMICC Investigators et al., 2021; B. Wang et al., 2022).
 
-Our findings show that BPD is a multifaceted disease characterised by disruptions in adaptive immune signalling and extracellular matrix organisation. Of note, genes associated with development and maintenance of adaptive immunity feature prominently, suggesting that adaptive-lineage cells may play a larger role in BPD pathogenesis, and a wider role in ventilator associated lung injury, than previously appreciated. 
+Our findings show that BPD is a multifaceted disease characterised by disruptions in adaptive immune signalling and extracellular matrix organisation. Of note, genes associated with development and maintenance of adaptive immunity feature prominently, suggesting that adaptive-lineage cells may play a larger role in BPD pathogenesis, and a wider role in ventilator associated lung injury, than previously appreciated.
 
 Results
 
