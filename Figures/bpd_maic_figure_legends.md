@@ -6,3 +6,11 @@ Figure 3: Meta-analysis by information content of rodent genome-scale bronchopul
 
 Figure 4: Comparison of MAIC analyses between human and rodent datasets: A) Significantly over-represented Gene Ontology terms across all ontologies for prioritised human and rodent genes demonstrating overlap. B) Euler plot showing overlap of prioritised genes between BPD and ARDS MAIC analyses. C) Percent overlap of lists. D) Significantly over-represented Gene Ontology terms across all ontologies for human/rodent overlap genes. E) ….HUB
 
+
+
+
+=======================================================================================
+Figure 1: Meta-analysis by information content of human genome-scale bronchopulmonary dysplasia studies. A) Heatmap of top 25 genes ranked by MAIC score. B) Significantly over-represented Gene Ontology terms across all ontologies for prioritised genes. C) Significantly enriched Reactome (p.adjust < 0.001) for prioritised genes. D) MCL String cluster of 32 hub proteins.
+
+
+
