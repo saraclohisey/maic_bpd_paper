@@ -6,6 +6,10 @@ This repository is where all preparation for the maic bpd manuscript should be k
 
 Can be added as doi or PMID.
 
+## If you want to update text:
+
+Please update the .md file. Do not update the word file. The word file is provided for convenience.
+
 ## Author list: 
 
 Analysis: Chris Happs*, Prerna Khanna*, Charlotte Scoynes, Nicholas Parkinson, Jonathan Millar, Kenneth Baillie, Sara Clohisey Hendry
@@ -15,20 +19,10 @@ Analysis: Chris Happs*, Prerna Khanna*, Charlotte Scoynes, Nicholas Parkinson, J
 Abstracts: Chris Happs, Prerna Khanna, Nelly Muriungi, Akira Alexander, Josh Rogers, Nicholas Parkinson, Elizabeth Lake, Maximilian Pickup, Sara Clohisey Hendry.
 
 
-## To Do: 
-
-Identify BPD contributor
-
-Chinthika?
-
 ## Journals:
 
  - 1st choice: BMC Respiratory Research
  - 2nd choice: Pediatric Research
  - 3rd choice: PLOS One
-
-## Reviewers:
-
-Brij Patel?
 
 
