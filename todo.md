@@ -16,9 +16,9 @@ TO DO REMAINING
 - [X] Fix title in 1D
 - [X] Colours for categories in the information content graph).
 - [X] Add supp 8 D to figure (not 7 as originally written)
-- [ ] Update to figure legends based on changes
+- [X] Update to figure legends based on changes
 
 Last step:
 
 - [ ] Add Drug interactions data
-- [ ] Abstract, results and conclusion
+- [ ] Abstract, results and conclusions
