@@ -14,10 +14,11 @@ TO DO REMAINING
 - [X] Move the overlap % images to supplementary
 - [X] Reorder 4D by how important they truly are
 - [X] Fix title in 1D
-- [ ] Colours for categories in the information content graph).
-- [ ] Add supp 7 D to figure
+- [X] Colours for categories in the information content graph).
+- [X] Add supp 8 D to figure (not 7 as originally written)
 - [ ] Update to figure legends based on changes
 
 Last step:
 
+- [ ] Add Drug interactions data
 - [ ] Abstract, results and conclusion
