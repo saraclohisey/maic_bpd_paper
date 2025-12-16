@@ -40,12 +40,12 @@ We first conducted a systematic review of studies that reported associations bet
 Meta-Analysis by Information Content of human genome-scale Bronchopulmonary Dysplasia studies
 From 76 human studies, 21 met our eligibility criteria (Supplementary Figure 1, Table 1), yielding 31 gene lists (23 ranked and 8 unranked) employing 5 experimental techniques (Supplementary Table 3). The included studies represented 4358 infants (cases = 2247, controls = 2111).  While the definition of BPD varied between studies, over two-thirds of studies, (71.4%, 15/21), used receipt of respiratory support at 36 weeks PMA 3 (Table 1). All but a single study used primary tissue or blood 25. MAIC collated and ranked 8017 unique genes across the datasets (Supplementary Table 4), and the top 25 are shown here (Figure1A; Top 100 in Supplementary Figure 3A). A single gene was supported by evidence from 4 experimental techniques (RASGRP3, rank = 1). Few genes (n = 53 genes, 0.6%) were supported by >=3 methods while 745 genes (9.74%) were supported by more than 1 method. In the top 10 ranked genes we observe immune regulation (RASGRP3, CD2, GPA33, IL1R2, CD177) and extracellular structure (CHIT1, RCAN3, LRRN3, FBN1). Additionally, a subunit of foetal haemoglobin, HGB1, features. Although the top hit (RASGRP3) is supported by data from GWAS experiments, these contributed very little information content to the top ranked genes overall (Supplementary Figure 3B). Cell type–specific enrichment analysis indicates that the gene rankings are most strongly driven by cells of the lymphoid lineage 26 (Supplementary Figure 4).
 
-Enrichment analyses of Human BPD MAIC geneset
+Enrichment analyses of Human BPD MAIC gene set
 Multiple aspects of T cell activation were highlighted by gene set enrichment analysis (GSEA) of the gene set using the Reactome database (Figure 1B). These were seen alongside signals from various aspects of immunity and supported by searches of other databases (See Supplementary materials). The signal was primarily driven by a core set of 23 genes (Supplementary Figure 3C), which the Markov Cluster Algorithm (MCL) partitioned into two distinct modules (Figure 1C): one linked to carbohydrate digestion and absorption and a second associated with CD3 and TCR zeta-chain phosphorylation. The latter constituted the substantially larger module, encompassing multiple T cell receptor components as well as several elements of the HLA complex.
 
 We prioritised 945 genes for further investigation (Supplementary Figure 3D), as previously described 22 and of these 310 (38%) were identified as druggable (Supplementary Materials), according to The Druggable Genome27. We performed Over Representation Analysis (ORA), on the prioritised gene set. The Reactome database replicated much of the signal observed in the GSEA (Supplementary Materials). We grouped ORA results from the Gene Ontology database (encompassing all ontologies) first based on semantic similarity, and then based on function (Figure 1C)28. Our analysis reveals an over-representation of immune system processes associated with lymphoid-mediated immunity, particularly regulation of T cell activation. 
 
-Protein-protein Interaction network of Human BPD MAIC geneset
+Protein-protein Interaction network of Human BPD MAIC gene set
 We created a protein-protein interaction (PPI) network using the prioritised gene set. Clustering of this network using the Markov Cluster Algorithm (MCL) identified 25 clusters with >=5 members. The 7 largest clusters contained >=10 members (Supplementary Figures 5 A-E show the top 5 clusters). Using previously reported methods (Millar et al., 2024), we identified 32 hub proteins likely to play central roles in the broader PPI network (Supplementary Figure 5 F). MCL clustering of this hub revealed three major clusters related to lymphocyte function, corresponding to activation (red, blue), receptor regulation (blue), and immunoglobulins (green) (Figure 1E). Overall, our analysis identified a robust lymphoid cell signature across a diverse range of genome-scale studies of BPD.
 
 Comparative analysis with ARDS MAIC gene set
@@ -75,9 +75,9 @@ Despite the limited overlap, comparison of the ARDS and BPD gene sets further hi
 
 The primary goal of carrying out parallel MAIC analyses between human and animal model BPD studies was to differentiate species-specific responses to injury, from core conserved disease mechanisms. The rodent analysis showed a more pronounced focus on pathways associated with extracellular matrix (ECM) remodelling, and wound healing (Figure 4A). The cause of this divergence is multifactorial but may be driven partly by the sample source bias inherent in the existing literature. Over half of the human studies used circulating blood samples (52.4%), which is ideal for capturing systemic immune and biomarker signals. Conversely, most of the rodent studies (19/20) used whole lung tissue, directly capturing the local pathology and the extensive tissue remodelling inherent to the structural component of BPD. Only 2 of our included human studies use lung tissue as their sample source, limiting our ability to explore this further using our methodology.
 
-Despite the difference in their systemic and local pathologies, the significant overlap between the prioritised human and rodent lists (163 genes) points towards a conserved set of critical mechanisms. This convergence is most clearly demonstrated by the shared presence of Interleukin-1 Receptor Type 2 (IL1R2) in the top ranked genes of the human (rank = 3) and rodent (rank = 3) datasets. This finding anchors the disease in the context of the perinatal hypoxic-inflammatory environment. IL1R2 is upregulated in acute hypoxia,32  and functions as a decoy receptor, acting as a crucial endogenous brake on the potent pro-inflammatory signalling cascade initiated by Interleukin-1 (IL-1) 33. The preterm lung is uniquely vulnerable to hypoxia, which can trigger a dangerous, self-amplifying cycle of injury and inflammation34. IL-1 antagonism has been shown to confer protection in rodent models of BPD (Bui et al., 2019; Nold et al., 2013), suggesting that IL1R2 may exert a protective role as an anti-inflammatory ‘brake’ protein in this context. 
+Despite the difference in their systemic and local pathologies, the significant overlap between the prioritised human and rodent lists (163 genes) points towards a conserved set of critical mechanisms. This convergence is most clearly demonstrated by the shared presence of Interleukin-1 Receptor Type 2 (IL1R2) in the top ranked genes of the human (rank = 3) and rodent (rank = 3) datasets. This finding anchors the disease in the context of the perinatal hypoxic-inflammatory environment. IL1R2 is upregulated in acute hypoxia,32  and functions as a decoy receptor, acting as a crucial endogenous brake on the potent pro-inflammatory signalling cascade initiated by Interleukin-1 (IL-1) 33. The preterm lung is uniquely vulnerable to hypoxia, which can trigger a dangerous, self-amplifying cycle of injury and inflammation34. IL-1 antagonism has been shown to confer protection in rodent models of BPD,35,36 suggesting that IL1R2 may exert a protective role as an anti-inflammatory ‘brake’ protein in this context. 
 
-Throughout, the differential immune signal (leukocyte-cell-related immunity versus lymphoid-cell-related immunity) may represent a genuine biological difference occurring over the disease time course. While the leukocyte signal may represent the acute, innate driven injury phase, as BPD continues on a prolonged course it involves a broader and more protracted inflammatory process where the cells of the lymphoid lineage play a more influential, and potentially damaging role.
+Throughout, the differential immune signal (leukocyte-cell-related immunity versus lymphoid-cell-related immunity) may represent a genuine biological difference occurring over the disease time course. While the leukocyte signal may represent the acute, innate driven injury phase, as BPD continues a prolonged course it involves a broader and more protracted inflammatory process where the cells of the lymphoid lineage play a more influential, and potentially damaging role.
 
 This study is based on the published literature and is intended to capture the current state of genome-wide BPD research. It is subject to several limitations. Firstly, blood is among the least invasive and most practical biological samples to collect in the NICU setting. As detailed above, this difference in sample source for human and rodent data represents a primary limitation on direct comparability and interpretation of tissue-specific pathology. Secondly, due to experimental methodologies, the rodent models of BPD included in this analysis may not accurately reflect the human disease but summarise the effects of hyperoxia induced during disease. Thirdly, due to key developmental differences - such as timing of alveolarisation and immune system maturation – the results may not be directly comparable between species. It is difficult to determine if some uncommon, enriched pathways reflect rodent-specific responses to experimental injury rather than universally conserved disease mechanisms. Finally, MAIC does not account for direction of effect, thus we are limited on how much we can infer about specific mechanisms.
 
@@ -87,21 +87,21 @@ In summary, MAIC offers a validated, integrative strategy capable of navigating 
 Methods
 
 Systematic review
-The systematic review and meta-analysis protocol was registered with the International Prospective Register of Systematic Reviews (PROSPERO; CRD42022306270, CRD42024550229). The review is reported in compliance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines.35
+The systematic review and meta-analysis protocol was registered with the International Prospective Register of Systematic Reviews (PROSPERO; CRD42022306270, CRD42024550229). The review is reported in compliance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines.37
 
 Search strategy and selection criteria
-A detailed description of our search strategy and eligibility criteria is provided in the Supplementary Methods. Briefly, we searched MEDLINE, Embase without language restrictions on 24/05/2024. We included human genome-wide studies reporting associations between genes, transcripts, or proteins. For human studies we accepted any contemporaneous BPD definition. For rodent studies, definitions of BPD study groups were accepted as hyperoxic exposure and induced low birth weight. We excluded candidate in vivo or in vitro studies (< 50 genes/proteins), candidate gene associations, and studies with <5 patients per arm. Following deduplication, titles were initially screened using Screenatron.36 
+A detailed description of our search strategy and eligibility criteria is provided in the Supplementary Methods. Briefly, we searched MEDLINE, Embase without language restrictions on 24/05/2024. We included human genome-wide studies reporting associations between genes, transcripts, or proteins. For human studies we accepted any contemporaneous BPD definition. For rodent studies, definitions of BPD study groups were accepted as hyperoxic exposure and induced low birth weight. We excluded candidate in vivo or in vitro studies (< 50 genes/proteins), candidate gene associations, and studies with <5 patients per arm. Following deduplication, titles were initially screened using Screenatron.38 
 
-Abstracts were then screened against eligibility criteria, this included organising the studies into separate collections of human and animal studies, with an independent author resolving inconsistencies. Full texts were retrieved and analysed for inclusion before extraction of gene lists for inclusion in MAIC. Input lists were processed as previously described.20,22,37 Briefly, lists were considered ranked if metrics of statistical significance (p-value) and/or fold change (FC) were reported. These lists were ordered by p-value/false discovery rate (low to high) then, where applicable, by absolute fold change or effect size (high to low). Gene names were converted to HGNC gene symbols (or Ensembl/Refseq symbols if no HGNC symbol). Rodent data was mapped to human ortholog symbols using custom scripts to allow for comparison with the human MAIC results.
+Abstracts were then screened against eligibility criteria, this included organising the studies into separate collections of human and animal studies, with an independent author resolving inconsistencies. Full texts were retrieved and analysed for inclusion before extraction of gene lists for inclusion in MAIC. Input lists were processed as previously described.20,22,39 Briefly, lists were considered ranked if metrics of statistical significance (p-value) and/or fold change (FC) were reported. These lists were ordered by p-value/false discovery rate (low to high) then, where applicable, by absolute fold change or effect size (high to low). Gene names were converted to HGNC gene symbols (or Ensembl/Refseq symbols if no HGNC symbol). Rodent data was mapped to human ortholog symbols using custom scripts to allow for comparison with the human MAIC results.
 
 MAIC
-The MAIC algorithm has previously been described in detail.19–22,37 A full description and the source code is available at https://baillielab.net/maic. We implemented pymaic v0.2 in Python v3.9 and used Technique to categorise input lists. MAIC combines both ranked and unranked lists, of unknown quality, to build a comprehensive ranked list of entities according to 4 basic assumptions.1. There is a set of true positives (genes implicated in BPD), 2.  A gene is more likely to be a true positive if it appears in datasets from more than one source, 3. A gene is more likely to be a true positive if it appears in datasets with a higher proportion of replicated genes. 4. A gene is more likely to be a true positive if it appears in datasets from multiple methods or modalities. 
+The MAIC algorithm has previously been described in detail.19–22,39 A full description and the source code is available at https://baillielab.net/maic. We implemented pymaic v0.2 in Python v3.9 and used Technique to categorise input lists. MAIC combines both ranked and unranked lists, of unknown quality, to build a comprehensive ranked list of entities according to 4 basic assumptions.1. There is a set of true positives (genes implicated in BPD), 2.  A gene is more likely to be a true positive if it appears in datasets from more than one source, 3. A gene is more likely to be a true positive if it appears in datasets with a higher proportion of replicated genes. 4. A gene is more likely to be a true positive if it appears in datasets from multiple methods or modalities. 
 
 Functional analyses and tissue expression
 All enrichment and over representation analyses were implemented using clusterProfiler (v4.0)28 in R (v4.5.1) and visualised using functions in that package. Code is available at All code is available at https://github.com/baillielab/bpd_maic. Redundancy of enriched GO terms was removed using the simplify function. Hypergeometric tests were implemented with the 1-phyper function in R. Gene overlaps were visualised using ggvenn. We conducted cell-type specific enrichment analysis using WebCSEA26 and extracted the top 20 general cell types for each query. The Drug Gene Interaction Database (DGIdb)  was queried for each ranked gene 27.
 
 Protein-protein Interaction Network
-Prioritised genes were analysed using the online tool STRING (https:// string-db.org) to determine potential protein-protein interactions (PPI). For humans 919 genes were mapped, for rodents 1726.  A PPI network was constructed using the MCL (Markov Clustering) algorithm, with an inflation parameter of 3 and focused on high confidence (interaction score of >= 0.7) interactions. The network was exported and hub genes subsequently identified using CytoHubba 0.1 implemented in CytoScape 3.10.3. The overlap of the top 100 ranked genes, ranked using 5 common algorithms (MCC, MNC, Degree, EPC and DMNC), was used to evaluate hub genes. 
+Prioritised genes were analysed using the online tool STRING (https:// string-db.org) to determine potential protein-protein interactions (PPI). For humans 919 genes were mapped, for rodents 1726.  A PPI network was constructed using the MCL (Markov Clustering) algorithm, with an inflation parameter of 3 and focused on high confidence (interaction score of >= 0.7) interactions. While network graphs represent evidence from all active interaction sources, only coexpression interactions are displayed.  The network was exported and hub genes subsequently identified using CytoHubba 0.1 implemented in CytoScape 3.10.3. The overlap of the top 100 ranked genes, ranked using 5 common algorithms (MCC, MNC, Degree, EPC and DMNC), was used to evaluate hub genes. 
 
 Overlap Analysis of Ranked Gene Lists
 To assess the degree of similarity between ranked lists, we computed the percent overlap at incremental list lengths. Beginning with the top-ranked gene from each list, we iteratively increased the comparison window by one gene until reaching a maximum of n genes. At each step, the proportion of overlapping genes was calculated as the number of shared genes divided by the number of genes included at that step, expressed as a percentage.
@@ -142,41 +142,43 @@ References
 32.	Johnson, D. R., O’Connor, J. C., Hartman, M. E., Tapping, R. I. & Freund, G. G. Acute hypoxia activates the neuroimmune system, which diabetes exacerbates. J. Neurosci. Off. J. Soc. Neurosci. 27, 1161–1166 (2007).
 33.	Peters, V. A., Joesting, J. J. & Freund, G. G. IL-1 receptor 2 (IL-1R2) and its role in immune regulation. Brain. Behav. Immun. 32, 1–8 (2013).
 34.	Eltzschig, H. K. & Carmeliet, P. Hypoxia and inflammation. N. Engl. J. Med. 364, 656–665 (2011).
-35.	Page, M. J. et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ n71 (2021) doi:10.1136/bmj.n71.
-36.	Clark, J. et al. A full systematic review was completed in 2 weeks using automation tools: a case study. J. Clin. Epidemiol. 121, 81–90 (2020).
-37.	Li, B. et al. Genome-wide CRISPR screen identifies host dependency factors for influenza A virus infection. Nat. Commun. 11, 164 (2020).
-38.	Ahmed, S. et al. Proteomics-Based Mapping of Bronchopulmonary Dysplasia-Associated Changes in Noninvasively Accessible Oral Secretions. J. Pediatr. 270, (2023).
-39.	Bhattacharya, S. et al. Genome-wide transcriptional profiling reveals connective tissue mast cell accumulation in bronchopulmonary dysplasia. Am. J. Respir. Crit. Care Med. 186, (2012).
-40.	Bhattacharya, S. et al. Lymphocyte-Specific Biomarkers Associated With Preterm Birth and Bronchopulmonary Dysplasia. Front. Immunol. 11, (2020).
-41.	De Paepe, M. E., Greco, D. & Mao, Q. Angiogenesis-related gene expression profiling in ventilated preterm human lungs. Exp. Lung Res. 36, (2010).
-42.	Dai, D. et al. Bronchopulmonary Dysplasia Predicted by Developing a Machine Learning Model of Genetic and Clinical Information. Front. Genet. 12, (2021).
-43.	Fulton, C. T., Cui, T. X., Goldsmith, A. M., Bermick, J. & Popova, A. P. Gene Expression Signatures Point to a Male Sex-Specific Lung Mesenchymal Cell PDGF Receptor Signaling Defect in Infants Developing Bronchopulmonary Dysplasia. Sci. Rep. 8, (2018).
-44.	Gong, X., Qiu, J., Qiu, G. & Cai, C. Adrenomedullin regulated by miRNA-574-3p protects premature infants with bronchopulmonary dysplasia. Biosci. Rep. 40, (2020).
-45.	Hamvas, A. et al. Exome sequencing identifies gene variants and networks associated with extreme respiratory outcomes following preterm birth. BMC Genet. 19, (2018).
-46.	Li A. et al. Investigating the early mechanisms leading from ventilation-induced lung injury to bronchopulmonary dysplasia using in vitro lung cell over-distension. J. Paediatr. Child Health 51, (2015).
-47.	Luo, X. et al. Identification of genetic susceptibility in preterm newborns with bronchopulmonary dysplasia by whole-exome sequencing: BIVM gene may play a role. Eur. J. Pediatr. 182, (2023).
-48.	Oji-Mmuo, C. N. et al. Tracheal aspirate transcriptomic and miRNA signatures of extreme premature birth with bronchopulmonary dysplasia. J. Perinatol. Off. J. Calif. Perinat. Assoc. 41, (2021).
-49.	Siddaiah, R. et al. Multiomics endotyping of preterm infants with bronchopulmonary dysplasia and pulmonary hypertension-A pilot study. Pulm. Circ. 13, (2023).
-50.	Windhorst, A. C. et al. Monocyte signature as a predictor of chronic lung disease in the preterm infant. Front. Immunol. 14, (2023).
-51.	Zasada, M. et al. Comparative two time-point proteome analysis of the plasma from preterm infants with and without bronchopulmonary dysplasia. Ital. J. Pediatr. 45, (2019).
-52.	Al-Mudares, F. et al. Loss of growth differentiation factor 15 exacerbates lung injury in neonatal mice. Am. J. Physiol. Lung Cell. Mol. Physiol. 325, (2023).
-53.	Bao, T.-P., Wu, R., Cheng, H.-P., Cui, X.-W. & Tian, Z.-F. Differential expression of long non-coding RNAs in hyperoxia-induced bronchopulmonary dysplasia. Cell Biochem. Funct. 34, (2016).
-54.	Bhaskaran, M. et al. Identification of microRNAs changed in the neonatal lungs in response to hyperoxia exposure. Physiol. Genomics 44, (2012).
-55.	Chao C.-M. et al. Fgf10 Deficiency Leads to Disturbed Formation of Alveolar Epithelial Cell Type II (AEC II) Which Causes Lethality in a Mouse Model of Bronchopulmonary Dysplasia. vol. 4 http://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=reference&D=emed18&NEWS=N&AN=616934541 (2017).
-56.	Chen, K., Jiang, P., Deng, S. & Wang, N. [Expression of thyroid transcription factor-1 and vimentin in neonatal mice with bronchopulmonary dysplasia]. Nan Fang Yi Ke Da Xue Xue Bao 32, (2012).
-57.	Cheng, H.-R. et al. Deep Illumina sequencing reveals differential expression of long non-coding RNAs in hyperoxia induced bronchopulmonary dysplasia in a rat model. Am. J. Transl. Res. 9, (2017).
-58.	Coarfa, C. et al. Sexual dimorphism of the pulmonary transcriptome in neonatal hyperoxic lung injury: identification of angiogenesis as a key pathway. Am. J. Physiol. Lung Cell. Mol. Physiol. 313, (2017).
-59.	Denervaud, V., Gremlich, S., Trummer-Menzi, E., Schittny, J. C. & Roth-Kleiner, M. Gene expression profile in newborn rat lungs after two days of recovery of mechanical ventilation. Pediatr. Res. 78, (2015).
-60.	Dong, N. et al. Intratracheal administration of umbilical cord-derived mesenchymal stem cells attenuates hyperoxia-induced multi-organ injury via heme oxygenase-1 and JAK/STAT pathways. World J. Stem Cells 14, (2022).
-61.	Dravet-Gounot, P. et al. Lung microRNA deregulation associated with impaired alveolarization in rats after intrauterine growth restriction. PloS One 12, (2017).
-62.	El Saie, A. et al. Metabolome and microbiome multi-omics integration from a murine lung inflammation model of bronchopulmonary dysplasia. Pediatr. Res. 92, (2022).
-63.	Natarajan, V. et al. Expression Profiling of Genes Regulated by Sphingosine Kinase1 Signaling in a Murine Model of Hyperoxia Induced Neonatal Bronchopulmonary Dysplasia. vol. 18 http://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=reference&D=med14&NEWS=N&AN=28851267 (2017).
-64.	Nichols, J. L. et al. Genome-wide association mapping of acute lung injury in neonatal inbred mice. FASEB J. Off. Publ. Fed. Am. Soc. Exp. Biol. 28, (2014).
-65.	Nitkin, C. R. et al. FOSL1 is a novel mediator of endotoxin/lipopolysaccharide-induced pulmonary angiogenic signaling. Sci. Rep. 10, (2020).
-66.	Rao, S., Liu, M., Iosef, C., Knutsen, C. & Alvira, C. M. Endothelial-specific loss of IKKbeta disrupts pulmonary endothelial angiogenesis and impairs postnatal lung growth. Am. J. Physiol. Lung Cell. Mol. Physiol. 325, (2023).
-67.	Revhaug, C. et al. Immune System Regulation Affected by a Murine Experimental Model of Bronchopulmonary Dysplasia: Genomic and Epigenetic Findings. Neonatology 116, (2019).
-68.	Scaffa, A. et al. Single-cell transcriptomics reveals lasting changes in the lung cellular landscape into adulthood after neonatal hyperoxic exposure. Redox Biol. 48, (2021).
-69.	Shrestha, A. K. et al. Interactive and independent effects of early lipopolysaccharide and hyperoxia exposure on developing murine lungs. Am. J. Physiol. Lung Cell. Mol. Physiol. 319, (2020).
+35.	Nold, M. F. et al. Interleukin-1 receptor antagonist prevents murine bronchopulmonary dysplasia induced by perinatal inflammation and hyperoxia. Proc. Natl. Acad. Sci. 110, 14384–14389 (2013).
+36.	Bui, C. B. et al. Interleukin-1 Receptor Antagonist Protects Newborn Mice Against Pulmonary Hypertension. Front. Immunol. 10, 1480 (2019).
+37.	Page, M. J. et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ n71 (2021) doi:10.1136/bmj.n71.
+38.	Clark, J. et al. A full systematic review was completed in 2 weeks using automation tools: a case study. J. Clin. Epidemiol. 121, 81–90 (2020).
+39.	Li, B. et al. Genome-wide CRISPR screen identifies host dependency factors for influenza A virus infection. Nat. Commun. 11, 164 (2020).
+40.	Ahmed, S. et al. Proteomics-Based Mapping of Bronchopulmonary Dysplasia-Associated Changes in Noninvasively Accessible Oral Secretions. J. Pediatr. 270, (2023).
+41.	Bhattacharya, S. et al. Genome-wide transcriptional profiling reveals connective tissue mast cell accumulation in bronchopulmonary dysplasia. Am. J. Respir. Crit. Care Med. 186, (2012).
+42.	Bhattacharya, S. et al. Lymphocyte-Specific Biomarkers Associated With Preterm Birth and Bronchopulmonary Dysplasia. Front. Immunol. 11, (2020).
+43.	De Paepe, M. E., Greco, D. & Mao, Q. Angiogenesis-related gene expression profiling in ventilated preterm human lungs. Exp. Lung Res. 36, (2010).
+44.	Dai, D. et al. Bronchopulmonary Dysplasia Predicted by Developing a Machine Learning Model of Genetic and Clinical Information. Front. Genet. 12, (2021).
+45.	Fulton, C. T., Cui, T. X., Goldsmith, A. M., Bermick, J. & Popova, A. P. Gene Expression Signatures Point to a Male Sex-Specific Lung Mesenchymal Cell PDGF Receptor Signaling Defect in Infants Developing Bronchopulmonary Dysplasia. Sci. Rep. 8, (2018).
+46.	Gong, X., Qiu, J., Qiu, G. & Cai, C. Adrenomedullin regulated by miRNA-574-3p protects premature infants with bronchopulmonary dysplasia. Biosci. Rep. 40, (2020).
+47.	Hamvas, A. et al. Exome sequencing identifies gene variants and networks associated with extreme respiratory outcomes following preterm birth. BMC Genet. 19, (2018).
+48.	Li A. et al. Investigating the early mechanisms leading from ventilation-induced lung injury to bronchopulmonary dysplasia using in vitro lung cell over-distension. J. Paediatr. Child Health 51, (2015).
+49.	Luo, X. et al. Identification of genetic susceptibility in preterm newborns with bronchopulmonary dysplasia by whole-exome sequencing: BIVM gene may play a role. Eur. J. Pediatr. 182, (2023).
+50.	Oji-Mmuo, C. N. et al. Tracheal aspirate transcriptomic and miRNA signatures of extreme premature birth with bronchopulmonary dysplasia. J. Perinatol. Off. J. Calif. Perinat. Assoc. 41, (2021).
+51.	Siddaiah, R. et al. Multiomics endotyping of preterm infants with bronchopulmonary dysplasia and pulmonary hypertension-A pilot study. Pulm. Circ. 13, (2023).
+52.	Windhorst, A. C. et al. Monocyte signature as a predictor of chronic lung disease in the preterm infant. Front. Immunol. 14, (2023).
+53.	Zasada, M. et al. Comparative two time-point proteome analysis of the plasma from preterm infants with and without bronchopulmonary dysplasia. Ital. J. Pediatr. 45, (2019).
+54.	Al-Mudares, F. et al. Loss of growth differentiation factor 15 exacerbates lung injury in neonatal mice. Am. J. Physiol. Lung Cell. Mol. Physiol. 325, (2023).
+55.	Bao, T.-P., Wu, R., Cheng, H.-P., Cui, X.-W. & Tian, Z.-F. Differential expression of long non-coding RNAs in hyperoxia-induced bronchopulmonary dysplasia. Cell Biochem. Funct. 34, (2016).
+56.	Bhaskaran, M. et al. Identification of microRNAs changed in the neonatal lungs in response to hyperoxia exposure. Physiol. Genomics 44, (2012).
+57.	Chao C.-M. et al. Fgf10 Deficiency Leads to Disturbed Formation of Alveolar Epithelial Cell Type II (AEC II) Which Causes Lethality in a Mouse Model of Bronchopulmonary Dysplasia. vol. 4 http://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=reference&D=emed18&NEWS=N&AN=616934541 (2017).
+58.	Chen, K., Jiang, P., Deng, S. & Wang, N. [Expression of thyroid transcription factor-1 and vimentin in neonatal mice with bronchopulmonary dysplasia]. Nan Fang Yi Ke Da Xue Xue Bao 32, (2012).
+59.	Cheng, H.-R. et al. Deep Illumina sequencing reveals differential expression of long non-coding RNAs in hyperoxia induced bronchopulmonary dysplasia in a rat model. Am. J. Transl. Res. 9, (2017).
+60.	Coarfa, C. et al. Sexual dimorphism of the pulmonary transcriptome in neonatal hyperoxic lung injury: identification of angiogenesis as a key pathway. Am. J. Physiol. Lung Cell. Mol. Physiol. 313, (2017).
+61.	Denervaud, V., Gremlich, S., Trummer-Menzi, E., Schittny, J. C. & Roth-Kleiner, M. Gene expression profile in newborn rat lungs after two days of recovery of mechanical ventilation. Pediatr. Res. 78, (2015).
+62.	Dong, N. et al. Intratracheal administration of umbilical cord-derived mesenchymal stem cells attenuates hyperoxia-induced multi-organ injury via heme oxygenase-1 and JAK/STAT pathways. World J. Stem Cells 14, (2022).
+63.	Dravet-Gounot, P. et al. Lung microRNA deregulation associated with impaired alveolarization in rats after intrauterine growth restriction. PloS One 12, (2017).
+64.	El Saie, A. et al. Metabolome and microbiome multi-omics integration from a murine lung inflammation model of bronchopulmonary dysplasia. Pediatr. Res. 92, (2022).
+65.	Natarajan, V. et al. Expression Profiling of Genes Regulated by Sphingosine Kinase1 Signaling in a Murine Model of Hyperoxia Induced Neonatal Bronchopulmonary Dysplasia. vol. 18 http://ovidsp.ovid.com/ovidweb.cgi?T=JS&PAGE=reference&D=med14&NEWS=N&AN=28851267 (2017).
+66.	Nichols, J. L. et al. Genome-wide association mapping of acute lung injury in neonatal inbred mice. FASEB J. Off. Publ. Fed. Am. Soc. Exp. Biol. 28, (2014).
+67.	Nitkin, C. R. et al. FOSL1 is a novel mediator of endotoxin/lipopolysaccharide-induced pulmonary angiogenic signaling. Sci. Rep. 10, (2020).
+68.	Rao, S., Liu, M., Iosef, C., Knutsen, C. & Alvira, C. M. Endothelial-specific loss of IKKbeta disrupts pulmonary endothelial angiogenesis and impairs postnatal lung growth. Am. J. Physiol. Lung Cell. Mol. Physiol. 325, (2023).
+69.	Revhaug, C. et al. Immune System Regulation Affected by a Murine Experimental Model of Bronchopulmonary Dysplasia: Genomic and Epigenetic Findings. Neonatology 116, (2019).
+70.	Scaffa, A. et al. Single-cell transcriptomics reveals lasting changes in the lung cellular landscape into adulthood after neonatal hyperoxic exposure. Redox Biol. 48, (2021).
+71.	Shrestha, A. K. et al. Interactive and independent effects of early lipopolysaccharide and hyperoxia exposure on developing murine lungs. Am. J. Physiol. Lung Cell. Mol. Physiol. 319, (2020).
 
  
 CONFLICT OF INTEREST
@@ -200,35 +202,35 @@ The authors would like to thank Dr. Marie Zechner and Dr. Dominique McCormick fo
 
 Table 1
 Study	Technique	Tissue	BPD Definition
-Ahmed et al.,38
+Ahmed et al.,40
 MassSpec	Oral	Resp. Supp at 36 weeks GA
 Ambalavanan et al.,15
 GWAS	Blood	Resp. Supp at 36 weeks GA
-Bhattacharya et al.,39
+Bhattacharya et al.,41
 Microarray	Lung	Resp. Supp at 36 weeks GA
-Bhattacharya et al.,40
+Bhattacharya et al.,42
 RNAseq	Blood	Resp Supp at 3,6,9,12 months 
-Da paepe et al.,41
+Da paepe et al.,43
 Microarray	Lung	Ventilator dependent for entire lifespan
-Dai et al.,42
+Dai et al.,44
 ExomeSeq	Blood	Rest Supp on 1st day of life, <32 weeks GA
-Fulton et al.,43
+Fulton et al.,45
 Microarray	Tracheal aspirates	Resp. Supp at 36 weeks GA
-Gong et al.,44
+Gong et al.,46
 Microarray	Blood	Resp. Supp at 36 weeks GA
 Hadchouel et al.,12
 GWAS	UCB	Resp. Supp at 36 weeks GA
-Hamvas et al.,45
+Hamvas et al.,47
 ExomeSeq	Saliva	Resp. Supp at 36 weeks GA
-Li et al.,46
+Li et al.,48
 ExomeSeq	Blood	Resp. Supp at 36 weeks GA
-Luo et al.,47
+Luo et al.,49
 ExomeSeq	Oral	Resp. Supp at 36 weeks GA 
-Oji Mmuo et al.,48
+Oji Mmuo et al.,50
 RNAseq	Tracheal aspirates	Resp. Supp at 36 weeks GA
 Pietrzyk et al.,29
 Microarray	Blood	Resp. Supp and birth <32 weeks GA
-Siddaiah et al.,49
+Siddaiah et al.,51
 RNAseq	Tracheal aspirates	Resp. Supp at 36 weeks GA 
 Torgerson et al.,16
 GWAS	N/A	Resp. Supp at 36 weeks GA
@@ -236,10 +238,10 @@ Tsotakos et al.,25
 RNAseq	Cultured cells - A549	NA - cultured cells
 Wang et al.,14
 GWAS	Blood	Resp. Supp at 36 weeks GA
-Windhorst et al.,50
+Windhorst et al.,52
 	Microarray	UCB	O2 >21% for 28 days by 36 weeks 
 Yuon Chou et al., 	RNAseq	UCB	Resp. Supp at 36 weeks GA
-Zasada et al.,51
+Zasada et al.,53
 MassSpec	UCB	Resp. Supp at 36 weeks GA 
 
 Table 1: Characteristics of studies included in Human BPD MAIC analysis. UCB = Umbilical Cord Blood. GA = Gestational age. Resp. Supp = Respiratory support. Oral = Oral mucosa. 
@@ -249,45 +251,45 @@ Table 1: Characteristics of studies included in Human BPD MAIC analysis. UCB = U
 
 Table 2
 Study	Technique	Animal	Tissue	Method
-Al Mudares et al.,52
+Al Mudares et al.,54
 RNAseq	Mouse	Whole lung	Hyperoxia
-Bao et al.,53
+Bao et al.,55
 	Microarray	Mouse	Whole lung	Hyperoxia
-Bhaskaran et al.,54
+Bhaskaran et al.,56
 Microarray	Rat	Whole lung	Hyperoxia
-Bhattacharya et al.,40
+Bhattacharya et al.,42
 RNAseq	Mouse	Whole lung	Hyperoxia
-Chao et al.,55
+Chao et al.,57
 Microarray	Mouse*	Whole lung	Hyperoxia
-Chen et al.,56
+Chen et al.,58
 DNA Methylation	Rat	Whole lung	Hyperoxia
-Cheng et al.,57
+Cheng et al.,59
 RNAseq	Rat	Right lung lobe	Hyperoxia
-Coarfa et al.,58
+Coarfa et al.,60
 RNAseq	Mouse	Whole lung	Hyperoxia
-Dénervaud et al.,59
+Dénervaud et al.,61
 RNA microarray	Rat	Whole lung	Hyperoxia
-Na Dong et al.,60
+Na Dong et al.,62
 RNAseq	Rat	Whole lung	Hyperoxia
-Dravet Gounot et al.,61
+Dravet Gounot et al.,63
 RNAseq	Rat	Whole lung	Induced IUGR
-El Saie et al.,62
+El Saie et al.,64
 Mass Spec	Mouse	Whole lung	Hyperoxia
 Hurskainen et al.,18
 scRNAseq	Mouse	Whole lung	Hyperoxia
-Natarajan et al.,63
+Natarajan et al.,65
 Microarray	Mouse*	Whole lung	Hyperoxia
-Nichols et al.,64
+Nichols et al.,66
 QTL analysis	Mouse	Whole lung	NA
-Nitkin et al.,65
+Nitkin et al.,67
 RNAseq	Mouse	Whole lung	LPS treated
-Rao et al.,66
+Rao et al.,68
 RNAseq	Mouse*	Whole lung	Hyperoxia
-Revhaug et al.,67
+Revhaug et al.,69
 Microarray	Mouse	Whole lung	Hyperoxia
-Scaffa et al.,68
+Scaffa et al.,70
 scRNAseq	Mouse	Whole lung	Hyperoxia
-Shrestha et al.,69
+Shrestha et al.,71
 Microarray	Rat	Whole lung	Hyperoxia
 
 Table 2: Characteristics of studies included in Rodent BPD MAIC analysis. Techniques are outlined in supplementary table X. Mouse* = Mouse line with specific mutation. NA = No treatment. IUGR = Intrauterine growth restriction. LPS = Lipopolysaccharide. 
