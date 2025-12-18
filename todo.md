@@ -4,7 +4,7 @@ TO DO REMAINING
  
 - [ ] Discussion - tighten up
 - [ ] Abstract, results and conclusions
-- [ ] Overall, the language of the discussion should be examined to be more definitive [Chris and Prerna - can you have a look at this?]
+- [X] Overall, the language of the discussion should be examined to be more definitive [Chris and Prerna - can you have a look at this?]
 - [ ] Check materials and methods to make sure everything is included [SCH - I have done this, but I would appreciate if someone else could check too, I'm getting a bit blind].
 
 
