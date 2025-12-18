@@ -2,7 +2,7 @@
 TO DO REMAINING
 
  
-- [ ] Discussion - tighten up
+- [X] Discussion - tighten up
 - [ ] Abstract, results and conclusions
 - [X] Overall, the language of the discussion should be examined to be more definitive [Chris and Prerna - can you have a look at this?]
 - [ ] Check materials and methods to make sure everything is included [SCH - I have done this, but I would appreciate if someone else could check too, I'm getting a bit blind].
@@ -21,12 +21,12 @@ TO DO REMAINING
  	- [X] Update methods to reflect change.
 
 Discussion
-	- [X] GWAS under-represented in MAIC human analysis (Exome sequencing is not...) [SCH will take this as it relates to a supplementary figure to be updated]
-	- [X] Comment on use of tissue versus blood - not enough human datasets to do a fair comparison. []
-	- [ ] Focus on CD4 (helper) throughout - as CD8 is seen less frequently. In particular, Figure 2E accompanying text. [Looking at this again I'm not sure it's worth focusing on? Opinions welcome.]
-	- [X] the leukocyte signal [I have ignored this to a degree, would anyone like to comment?]
 
-	- [X] Update text based on changes to figures and figure legends and supplementary below.
+- [X] GWAS under-represented in MAIC human analysis (Exome sequencing is not...) [SCH will take this as it relates to a supplementary figure to be updated]
+- [X] Comment on use of tissue versus blood - not enough human datasets to do a fair comparison. []
+- [/] Focus on CD4 (helper) throughout - as CD8 is seen less frequently. In particular, Figure 2E accompanying text. [Looking at this again I'm not sure it's worth focusing on? Opinions welcome.]
+- [X] the leukocyte signal [I have ignored this to a degree, would anyone like to comment?]
+- [X] Update text based on changes to figures and figure legends and supplementary below.
 
 
 Figures:
