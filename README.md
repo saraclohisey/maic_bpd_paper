@@ -8,7 +8,7 @@ Can be added as doi or PMID.
 
 ## If you want to update text:
 
-Please update the .md file. Do not update the word file. The word file is provided for convenience.
+Please update the manuscript.md file which is in the markdown folder (markdown/manuscript.md). Do not update the word file. The word file is provided for convenience.
 
 ## Author list: 
 
